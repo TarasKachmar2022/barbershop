@@ -1,3 +1,16 @@
-.prices-uppertitle {
+.uppertitle {
   color: var(--uppertitle-txt-cl);
+}
+
+.prices-title {
+  font-size: 40px;
+  line-height: calc(47 / 40);
+  color: var(--white-txt-cl);
+}
+
+.prices-upperlist {
+  font-size: 14px;
+  line-height: calc(20 / 14);
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-cl);
 }
