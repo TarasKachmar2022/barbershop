@@ -3,6 +3,7 @@
   font-size: 42px;
   line-height: calc(49 / 42);
   letter-spacing: 0.05em;
+  color: var(--title-txt-cl);
 }
 
 .section-uppertitle {
@@ -10,4 +11,5 @@
   font-size: 11px;
   line-height: calc(15 / 11);
   text-transform: uppercase;
+  color: var(--title-txt-cl);
 }
