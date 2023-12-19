@@ -1,0 +1,17 @@
+.hero-uppertitle {
+  letter-spacing: 0.1em;
+  color: var(--uppertitle-txt-cl);
+}
+
+.maintitle {
+  font-family: var(--title-font);
+  font-size: 48px;
+  line-height: calc(56 / 48);
+  letter-spacing: 0.05em;
+  color: var(--white-txt-cl);
+}
+
+.hero-descr {
+  line-height: calc(26 / 16);
+  color: var(--secondary-txt-cl);
+}

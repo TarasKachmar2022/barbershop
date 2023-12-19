@@ -1,0 +1,13 @@
+.section-title {
+  font-family: var(--title-font);
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+}
+
+.section-uppertitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-transform: uppercase;
+}
