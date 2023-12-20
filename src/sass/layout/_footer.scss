@@ -1,3 +1,16 @@
+.footer {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
 .footer-link {
   font-weight: 600;
   font-size: 11px;
