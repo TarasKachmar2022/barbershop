@@ -10,4 +10,9 @@
 .mobile-container {
   display: flex;
   justify-content: space-between;
+  color: var(--icon-white-cl);
+}
+
+.mobile-header-icon {
+  fill: currentColor;
 }
