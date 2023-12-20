@@ -1,5 +1,9 @@
 .hero-wrap {
   background-color: var(--background-dark-cl);
+  background-image: url(./../images/hero/slider-img-3-sm.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   margin-top: -138px;
   margin-right: -31px;
   margin-left: -31px;
@@ -11,6 +15,7 @@
 
 .hero-uppertitle {
   letter-spacing: 0.1em;
+  margin-bottom: 20px;
 }
 
 .maintitle {
@@ -19,9 +24,11 @@
   line-height: calc(56 / 48);
   letter-spacing: 0.05em;
   color: var(--white-txt-cl);
+  margin-bottom: 20px;
 }
 
 .hero-descr {
   line-height: calc(26 / 16);
   color: var(--secondary-txt-cl);
+  width: 321px;
 }
