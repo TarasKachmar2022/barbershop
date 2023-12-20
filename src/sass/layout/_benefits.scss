@@ -11,7 +11,7 @@
 .benefits-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  column-gap: 30px;
 }
 
 .benefits-item {
@@ -20,7 +20,27 @@
   line-height: calc(15 / 11);
   color: var(--title-txt-cl);
   background-color: var(--background-light-cl);
-  width: 194px;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  padding-left: 36px;
+}
+
+.benefits-item:nth-child(odd) {
+  margin-bottom: 30px;
+}
+
+.benefits-item:nth-child(even) {
+  margin-top: 30px;
+}
+
+.benefits-item:nth-child(2) {
+  margin-top: 35;
+}
+
+.benefits-list-descr {
+  width: 122px;
 }
 
 .benefits-value {
@@ -29,4 +49,5 @@
   line-height: calc(57 / 42);
   letter-spacing: 0.05em;
   color: var(--title-txt-cl);
+  margin-bottom: 6px;
 }
