@@ -1,9 +1,15 @@
 .contacts {
   background-color: var(--background-dark-cl);
+  background-image: url(./../images/contacts/contacts-img-sm.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .contacts-title {
   color: var(--white-txt-cl);
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .contacts-item {
