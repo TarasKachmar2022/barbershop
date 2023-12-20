@@ -6,9 +6,12 @@
 @import './utils/reset';
 @import './utils/hidden';
 
+@import './components/nav';
 @import './components/btn';
 @import './components/work-time';
 
+@import './layout/header-mobile';
+@import './layout/header';
 @import './layout/hero';
 @import './layout/about';
 @import './layout/prices';

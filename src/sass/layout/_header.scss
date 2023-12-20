@@ -1,0 +1,19 @@
+.header {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-wrap {
+  display: flex;
+  gap: 43px;
+  align-items: center;
+  margin-left: auto;
+}
