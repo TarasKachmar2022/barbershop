@@ -1,9 +1,9 @@
 @import './base/common';
-@import './base/container';
-@import './base/section';
+@import './base/reset';
+@import './base/variables';
 
-@import './utils/variables';
-@import './utils/reset';
+@import './utils/container';
+@import './utils/section';
 @import './utils/hidden';
 
 @import './components/nav';
