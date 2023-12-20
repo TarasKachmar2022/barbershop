@@ -6,6 +6,10 @@
   background-size: cover;
 }
 
+.contacts-list {
+  margin-bottom: 44px;
+}
+
 .contacts-title {
   color: var(--white-txt-cl);
   text-align: center;
@@ -17,6 +21,7 @@
   line-height: calc(30 / 18);
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
+  margin-bottom: 20px;
 }
 
 .contacts-address {
