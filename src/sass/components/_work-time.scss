@@ -1,3 +1,7 @@
 .time-title {
   color: var(--white-txt-cl);
 }
+
+.time-title::before {
+  background-color: var(--psevdoelement-light-cl);
+}
