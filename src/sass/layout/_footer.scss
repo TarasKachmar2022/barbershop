@@ -9,14 +9,18 @@
   justify-content: right;
   gap: 40px;
   margin-bottom: 20px;
-}
-
-.footer-link {
   font-weight: 600;
   font-size: 11px;
   line-height: calc(15 / 11);
   letter-spacing: 0.2em;
   color: var(--title-txt-cl);
+}
+
+.footer-list::before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: var(--secondary-txt-cl);
 }
 
 .footer-copyright {
