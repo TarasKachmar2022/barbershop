@@ -24,6 +24,19 @@
   margin-bottom: 20px;
 }
 
+.contacts-link {
+  display: flex;
+  align-items: center;
+}
+
 .contacts-address {
   font-weight: 700;
+}
+
+.contacts-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  fill: transparent;
+  stroke: var(--secondary-txt-cl);
 }

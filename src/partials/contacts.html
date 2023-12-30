@@ -6,17 +6,32 @@
       <ul class="contacts-list">
         <li class="contacts-item contacts-address">
           <a
+            class="contacts-link"
             href="https://maps.app.goo.gl/C2FUEhGoKdeHeM456"
             target="_blank"
             rel="noopener noreferrer"
-            >st. Vasilkivska, 7A Kyiv, 08132</a
+          >
+            <svg class="contacts-icon">
+              <use href="./images/sprite.svg#icon-map-pin"></use>
+            </svg>
+            st. Vasilkivska, 7A Kyiv, 08132
+          </a>
+        </li>
+        <li class="contacts-item">
+          <a class="contacts-link" href="tel:+380441111111">
+            <svg class="contacts-icon">
+              <use href="./images/sprite.svg#icon-phone"></use>
+            </svg>
+            +38 044 111 11 11</a
           >
         </li>
         <li class="contacts-item">
-          <a href="tel:+380441111111">+38 044 111 11 11</a>
-        </li>
-        <li class="contacts-item">
-          <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+          <a class="contacts-link" href="mailto:barbershop@email.com">
+            <svg class="contacts-icon">
+              <use href="./images/sprite.svg#icon-mail"></use>
+            </svg>
+            barbershop@email.com</a
+          >
         </li>
       </ul>
       <include src="./partials/work-time.html"></include>
