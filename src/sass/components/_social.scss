@@ -17,6 +17,9 @@
   height: 44px;
   align-items: center;
   justify-content: center;
+  transition-property: fill;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
 }
 
 .social-link:hover,

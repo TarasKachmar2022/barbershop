@@ -13,12 +13,29 @@
 
 .btn-white {
   color: var(--title-txt-cl);
+  transition-property: color, background-color;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  color: var(--white-txt-cl);
+  background-color: var(--accent-cl);
 }
 
 .btn-dark {
   display: block;
   margin: 0 auto;
   color: var(--white-txt-cl);
+  transition-property: background-color;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: var(--accent-cl);
 }
 
 .header-burger {
