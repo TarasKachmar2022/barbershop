@@ -13,7 +13,6 @@
   font-size: 11px;
   line-height: calc(15 / 11);
   letter-spacing: 0.2em;
-  color: var(--title-txt-cl);
 }
 
 .footer-list::before {
@@ -21,6 +20,18 @@
   width: 60px;
   height: 1px;
   background-color: var(--secondary-txt-cl);
+}
+
+.footer-link {
+  color: var(--title-txt-cl);
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-cl);
 }
 
 .footer-copyright {
