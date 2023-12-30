@@ -13,6 +13,18 @@
   color: var(--icon-white-cl);
 }
 
+.mobile-logo {
+  fill: currentColor;
+}
+
 .mobile-header-icon {
   fill: currentColor;
+  transition-property: fill;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
+}
+
+.mobile-header-icon:hover,
+.mobile-header-icon:focus {
+  fill: var(--accent-cl);
 }
