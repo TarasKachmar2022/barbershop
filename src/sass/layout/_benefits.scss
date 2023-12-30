@@ -1,5 +1,6 @@
 .benefits-title {
   margin-bottom: 20px;
+  min-width: 419px;
 }
 
 .benefits-descr {
@@ -44,10 +45,23 @@
 }
 
 .benefits-value {
+  position: relative;
   font-weight: 700;
   font-size: 42px;
   line-height: calc(57 / 42);
   letter-spacing: 0.05em;
   color: var(--title-txt-cl);
   margin-bottom: 6px;
+}
+
+.benefits-value::after {
+  content: '+';
+  position: absolute;
+  top: 7px;
+  right: -14px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(22 / 16);
+  text-align: center;
+  color: var(--accent-cl);
 }
