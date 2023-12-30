@@ -17,16 +17,25 @@
 }
 
 .contacts-item {
-  font-size: 18px;
-  line-height: calc(30 / 18);
-  letter-spacing: 0.02em;
-  color: var(--secondary-txt-cl);
   margin-bottom: 20px;
 }
 
 .contacts-link {
   display: flex;
   align-items: center;
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  fill: transparent;
+  color: var(--secondary-txt-cl);
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-cl);
 }
 
 .contacts-address {
@@ -34,9 +43,6 @@
 }
 
 .contacts-icon {
-  width: 24px;
-  height: 24px;
+  stroke: currentColor;
   margin-right: 16px;
-  fill: transparent;
-  stroke: var(--secondary-txt-cl);
 }
