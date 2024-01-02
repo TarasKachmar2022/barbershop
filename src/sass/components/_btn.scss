@@ -15,7 +15,7 @@
   color: var(--title-txt-cl);
   transition-property: color, background-color;
   transition-duration: var(--duration);
-  transition-delay: var(--delay);
+  transition-timing-function: var(--timing-function);
 }
 
 .btn-white:hover,
@@ -30,7 +30,7 @@
   color: var(--white-txt-cl);
   transition-property: background-color;
   transition-duration: var(--duration);
-  transition-delay: var(--delay);
+  transition-timing-function: var(--timing-function);
 }
 
 .btn-dark:hover,
