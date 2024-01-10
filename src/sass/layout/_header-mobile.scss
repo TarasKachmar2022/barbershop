@@ -20,12 +20,4 @@
 
 .mobile-header-icon {
   fill: currentColor;
-  transition-property: fill;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--timing-function);
-}
-
-.mobile-header-icon:hover,
-.mobile-header-icon:focus {
-  fill: var(--accent-cl);
 }
