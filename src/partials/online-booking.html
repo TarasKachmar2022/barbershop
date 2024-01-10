@@ -2,6 +2,32 @@
 <section class="booking section">
   <div class="container">
     <h2 class="booking-title section-title">Online-booking</h2>
-    <button class="btn btn-dark" type="button">send</button>
+    <form class="booking-form">
+      <label class="booking-label">
+        <input
+          class="booking-input"
+          type="text"
+          name="clientname"
+          placeholder="NAME*"
+        />
+      </label>
+      <label class="booking-label">
+        <input
+          class="booking-input"
+          type="tel"
+          name="clientphone"
+          placeholder="PHONE*"
+        />
+      </label>
+      <label class="booking-label">
+        <textarea
+          class="booking-input booking-message"
+          name="message"
+          rows="3"
+          placeholder="MESSAGE"
+        ></textarea>
+      </label>
+      <button class="btn btn-dark" type="submit">send</button>
+    </form>
   </div>
 </section>
