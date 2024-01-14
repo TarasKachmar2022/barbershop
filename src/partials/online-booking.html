@@ -2,31 +2,33 @@
 <section class="booking section">
   <div class="container">
     <h2 class="booking-title section-title">Online-booking</h2>
-    <form class="booking-form">
-      <label class="booking-label">
-        <input
-          class="booking-input"
-          type="text"
-          name="clientname"
-          placeholder="NAME*"
-        />
-      </label>
-      <label class="booking-label">
-        <input
-          class="booking-input"
-          type="tel"
-          name="clientphone"
-          placeholder="PHONE*"
-        />
-      </label>
-      <label class="booking-label">
-        <textarea
-          class="booking-input booking-message"
-          name="message"
-          rows="3"
-          placeholder="MESSAGE"
-        ></textarea>
-      </label>
+    <form class="form">
+      <div class="form-group" role="group">
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="text"
+            name="clientname"
+            placeholder="NAME*"
+          />
+        </label>
+        <label class="form-label">
+          <input
+            class="form-input"
+            type="tel"
+            name="clientphone"
+            placeholder="PHONE*"
+          />
+        </label>
+        <label class="form-label">
+          <textarea
+            class="form-input form-message"
+            name="message"
+            rows="3"
+            placeholder="MESSAGE"
+          ></textarea>
+        </label>
+      </div>
       <button class="btn btn-dark" type="submit">send</button>
     </form>
   </div>

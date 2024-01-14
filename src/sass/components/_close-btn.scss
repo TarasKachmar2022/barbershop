@@ -1,0 +1,29 @@
+.close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15;
+  right: 15;
+  width: 30px;
+  height: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--close-btn-cl);
+  border-radius: 50%;
+  color: var(--close-btn-cl);
+  background-color: transparent;
+  transition-property: border-color, color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  border-color: var(--accent-cl);
+  color: var(--accent-cl);
+}
+
+.close-icon {
+  fill: currentColor;
+}
