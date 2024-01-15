@@ -14,7 +14,7 @@
 
 .btn-white {
   color: var(--title-txt-cl);
-  transition-property: color, background-color;
+  transition-property: color, background-color, box-shadow;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
 }
@@ -23,13 +23,14 @@
 .btn-white:focus {
   color: var(--white-txt-cl);
   background-color: var(--accent-cl);
+  box-shadow: var(--btn-shadow);
 }
 
 .btn-dark {
   display: block;
   margin: 0 auto;
   color: var(--white-txt-cl);
-  transition-property: background-color;
+  transition-property: background-color, box-shadow;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
 }
@@ -37,6 +38,7 @@
 .btn-dark:hover,
 .btn-dark:focus {
   background-color: var(--accent-cl);
+  box-shadow: var(--btn-shadow);
 }
 
 .header-burger {

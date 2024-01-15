@@ -9,31 +9,126 @@
     <h2 class="modal-title section-title">Online-booking</h2>
     <form class="modal-form">
       <div class="modal-form-group" role="group">
-        <label class="modal-form-label">
-          <input
-            class="modal-form-input"
-            type="text"
-            name="clientname"
-            placeholder="NAME*"
-          />
+        <label class="modal-form-wrap">
+          <span class="modal-form-label">Name</span>
+          <span class="modal-form-container">
+            <svg class="modal-form-icon" width="18" height="18">
+              <use href="./images/sprite.svg#icon-modal-person"></use>
+            </svg>
+            <svg class="modal-status-icon" width="18" height="18">
+              <use
+                class="modal-status-warning"
+                href="./images/sprite.svg#icon-warning"
+              ></use>
+              <use
+                class="modal-status-success"
+                href="./images/sprite.svg#icon-success"
+              ></use>
+            </svg>
+            <span class="modal-form-thumb">
+              <input
+                class="modal-form-input"
+                type="text"
+                name="clientname"
+                placeholder="Peter"
+                required
+              />
+            </span>
+          </span>
+          <span class="modal-form-notfication">
+            Please enter at least 2 characters
+          </span>
         </label>
-        <label class="modal-form-label">
-          <input
-            class="modal-form-input"
-            type="tel"
-            name="clientphone"
-            placeholder="PHONE*"
-          />
+        <label class="modal-form-wrap">
+          <span class="modal-form-label">Phone</span>
+          <span class="modal-form-container">
+            <svg class="modal-status-icon" width="18" height="18">
+              <use
+                class="modal-status-warning"
+                href="./images/sprite.svg#icon-warning"
+              ></use>
+              <use
+                class="modal-status-success"
+                href="./images/sprite.svg#icon-success"
+              ></use>
+            </svg>
+            <span class="modal-form-thumb">
+              <svg class="modal-form-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-modal-phone"></use>
+              </svg>
+              <input
+                class="modal-form-input"
+                type="tel"
+                name="clientphone"
+                placeholder="+38(063)175-30-08"
+                required
+              />
+            </span>
+          </span>
+          <span class="modal-form-notfication">
+            Enter the number in the format +38 099 123-45-67
+          </span>
         </label>
-        <label class="modal-form-label">
+        <label class="modal-form-wrap">
+          <span class="modal-form-label">Email</span>
+          <span class="modal-form-container">
+            <svg class="modal-status-icon" width="18" height="18">
+              <use
+                class="modal-status-warning"
+                href="./images/sprite.svg#icon-warning"
+              ></use>
+              <use
+                class="modal-status-success"
+                href="./images/sprite.svg#icon-success"
+              ></use>
+            </svg>
+            <span class="modal-form-thumb">
+              <svg class="modal-form-icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-modal-envelope"></use>
+              </svg>
+              <input
+                class="modal-form-input"
+                type="email"
+                name="useremail"
+                placeholder="example@mail.com"
+                required
+              />
+            </span>
+          </span>
+          <span class="modal-form-notfication">Enter the correct address</span>
+        </label>
+        <label class="modal-form-wrap">
+          <span class="modal-form-label">Message</span>
           <textarea
             class="modal-form-input modal-form-message"
             name="message"
-            placeholder="MESSAGE"
+            placeholder="Enter your message"
           ></textarea>
         </label>
       </div>
-      <button class="btn btn-dark" type="submit">send</button>
+      <label class="modal-egreement-wrap">
+        <input
+          class="modal-egreement-input"
+          type="checkbox"
+          name="egreement"
+          required
+        />
+        <svg class="modal-egreement-icon" width="16" height="15">
+          <use
+            class="modal-form-icon-unchecked"
+            href="./images/sprite.svg#icon-uncheked"
+          ></use>
+          <use
+            class="modal-form-icon-checked"
+            href="./images/sprite.svg#icon-checked"
+          ></use>
+        </svg>
+        <span class="modal-egreement-text"
+          >Погоджуюся з розсилкою та приймаю
+          <a class="modal-egreement-link" href="">Умови договору</a></span
+        >
+      </label>
+      <button class="btn btn-white" type="submit">send</button>
     </form>
   </div>
 </div>

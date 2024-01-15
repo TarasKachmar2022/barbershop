@@ -5,6 +5,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--backdrop-cl);
+  backdrop-filter: blur(3px);
 }
 
 .modal {
@@ -14,51 +15,131 @@
   transform: translate(-50%, -50%);
   width: 528px;
   min-height: 581px;
-  background-color: var(--background-dark-cl);
-  padding-top: 60px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: var(--background-white-cl);
+  padding-top: 40px;
   padding-right: 40px;
-  padding-bottom: 56px;
+  padding-bottom: 40px;
   padding-left: 40px;
+  box-shadow: var(--modal-shadow);
+}
+
+.close-btn {
+  color: var(--main-txt-cl);
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: var(--accent-cl);
+}
+
+.close-icon {
+  fill: currentColor;
 }
 
 .modal-title {
-  color: var(--white-txt-cl);
+  font-size: 36px;
+  color: var(--title-txt-cl);
   text-align: center;
-  margin-bottom: 44px;
+  margin-bottom: 15px;
 }
 
 .modal-form-group {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.modal-form-wrap {
+  position: relative;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.modal-form-wrap:last-child {
+  margin-bottom: 0;
 }
 
 .modal-form-label {
-  margin-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.01em;
+  margin-bottom: 4px;
+  color: var(--secondary-txt-cl);
+}
+
+.modal-form-container {
+  position: relative;
+}
+
+.modal-form-thumb {
+  position: relative;
+}
+
+.modal-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 10;
+  transform: translateY(-50%);
+  transition-property: fill;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+}
+
+.modal-form-icon:hover {
+  fill: var(--accent-cl);
+}
+
+.modal-status-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.modal-status-warning {
+  fill: rgb(214, 2, 2);
+}
+
+.modal-status-success {
+  fill: rgb(3, 180, 3);
 }
 
 .modal-form-input {
   width: 100%;
-  color: var(--white-txt-cl);
+  height: 40px;
+  color: var(--main-txt-cl);
   background-color: transparent;
   padding-top: 8px;
+  padding-right: 38px;
   padding-bottom: 8px;
+  padding-left: 38px;
   border: none;
-  border-bottom: 1px solid var(--placeholder-txt-cl);
+  border: 1px solid var(--placeholder-txt-cl);
+  border-radius: 4px;
   outline: transparent;
-  transition-property: border-bottom;
+  transition-property: border;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
 }
 
 .modal-form-input:hover,
 .modal-form-input:focus {
-  border-bottom: 1px solid var(--white-txt-cl);
+  border: 1px solid var(--accent-cl);
+}
+
+.modal-form-input:hover + .modal-form-icon,
+.modal-form-input:focus + .modal-form-icon {
+  fill: var(--accent-cl);
 }
 
 .modal-form-input::placeholder {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: calc(15 / 11);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(18 / 16);
   letter-spacing: 0.1em;
   color: var(--placeholder-txt-cl);
   transition-property: color;
@@ -68,10 +149,80 @@
 
 .modal-form-input:hover::placeholder,
 .modal-form-input:focus::placeholder {
-  color: var(--white-txt-cl);
+  color: var(--placeholder-accent-cl);
+}
+
+.modal-form-notfication {
+  position: absolute;
+  left: 50%;
+  bottom: -17;
+  transform: translateX(-50%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: red;
 }
 
 .modal-form-message {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   height: 125px;
   resize: none;
+}
+
+.modal-egreement-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.modal-egreement-input {
+  opacity: 0;
+  // display: none;
+}
+
+.modal-egreement-icon {
+}
+
+.modal-form-icon-unchecked {
+}
+
+.modal-form-icon-checked {
+  opacity: 0;
+}
+
+.modal-egreement-input {
+}
+
+.modal-egreement-input:checked
+  + .modal-egreement-icon
+  .modal-form-icon-unchecked {
+  opacity: 0;
+}
+
+.modal-egreement-input:checked
+  + .modal-egreement-icon
+  .modal-form-icon-checked {
+  opacity: 1;
+}
+
+.modal-egreement-text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-cl);
+  margin-left: 8px;
+}
+
+.modal-egreement-link {
+  color: var(--accent-cl);
+  text-decoration: underline;
+  text-underline-position: under;
 }

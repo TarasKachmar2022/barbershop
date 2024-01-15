@@ -8,14 +8,14 @@
   --title-txt-cl: #303030;
   --white-txt-cl: #ffffff;
   --uppertitle-txt-cl: rgba(157, 164, 189, 0.6);
-  --placeholder-txt-cl: rgba(157, 164, 189, 0.4);
+  --placeholder-txt-cl: rgba(33, 33, 33, 0.2);
   // // Background colors
   --background-light-cl: #f7f7f7;
   --background-prices-cl: #111319;
   --background-dark-cl: #191c26;
   --background-white-cl: #ffffff;
   // Button colors
-  --close-btn-cl: rgba(157, 164, 189, 0.4);
+  --close-btn-cl: rgba(33, 33, 33, 0.2);
   // Backdrop color
   --backdrop-cl: rgba(0, 0, 0, 0.2);
   // Psevdoelement colors
@@ -23,6 +23,11 @@
   --psevdoelement-prices-cl: rgba(157, 164, 189, 0.12);
   // Accent colors
   --accent-cl: #ff6c00;
+  --placeholder-accent-cl: rgba(255, 108, 0, 0.5);
+  // Shadows
+  --btn-shadow: 0px 4px 4px 0px #00000026;
+  --modal-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001f;
   // Icon colors
   --icon-white-cl: #ffffff;
   // Gradient colors
