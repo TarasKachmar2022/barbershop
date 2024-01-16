@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn:document.querySelector("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]"),body:document.querySelector("[data-page]")};function o(){e.modal.classList.toggle("is-hidden"),e.body.classList.toggle("no-scroll")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o)})();const e=document.querySelector("#phone");new IMask(e,{mask:"+{38}(000)000-00-00"});
+//# sourceMappingURL=index.5419b37d.js.map
