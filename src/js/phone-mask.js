@@ -1,5 +1,5 @@
-const phoneInput = document.querySelector('#phone');
+const phoneInputEl = document.querySelector('#phone');
 
-const mask = new IMask(phoneInput, {
+const mask = new IMask(phoneInputEl, {
   mask: '+{38}(000)000-00-00',
 });

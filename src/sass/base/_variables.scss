@@ -8,7 +8,6 @@
   --title-txt-cl: #303030;
   --white-txt-cl: #ffffff;
   --uppertitle-txt-cl: rgba(157, 164, 189, 0.6);
-  --placeholder-txt-cl: rgba(33, 33, 33, 0.2);
   // // Background colors
   --background-light-cl: #f7f7f7;
   --background-prices-cl: #111319;
@@ -16,6 +15,13 @@
   --background-white-cl: #ffffff;
   // Button colors
   --close-btn-cl: rgba(33, 33, 33, 0.2);
+  // Borders color
+  --border-grey-cl: rgba(157, 164, 189, 0.4);
+  --border-white-cl: #ffffff;
+  --border-light-cl: rgba(33, 33, 33, 0.2);
+  // Placeholder color
+  --placeholder-light-cl: rgba(33, 33, 33, 0.2);
+  --placeholder-grey-cl: rgba(157, 164, 189, 0.4);
   // Backdrop color
   --backdrop-cl: rgba(0, 0, 0, 0.2);
   // Psevdoelement colors
@@ -33,7 +39,7 @@
   // Gradient colors
   --price-list-gredient-cl: #171a24, #171a2433;
   // Duration
-  --duration: 250ms;
+  --duration: 2500ms;
   // Timing function
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   // Other
