@@ -58,13 +58,13 @@
 .modal-form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .modal-form-wrap {
   position: relative;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .modal-form-wrap:last-child {
@@ -82,10 +82,6 @@
 }
 
 .modal-form-container {
-  position: relative;
-}
-
-.modal-form-thumb {
   position: relative;
 }
 
@@ -111,11 +107,11 @@
 }
 
 .modal-status-warning {
-  fill: rgb(214, 2, 2);
+  fill: var(--modal-validate-warning-cl);
 }
 
 .modal-status-success {
-  fill: rgb(3, 180, 3);
+  fill: var(--modal-validate-success-cl);
 }
 
 .modal-form-input {
@@ -176,10 +172,32 @@
   opacity: 0;
 }
 
+.modal-status-warning {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+}
+
+.modal-status-success {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+}
+
 .modal-form-input:invalid:required:not(:placeholder-shown)
   ~ .modal-form-notfication,
-.modal-form-input:invalid:required:not(:placeholder-shown) ~ .modal-form {
+.modal-form-input:invalid:required:not(:placeholder-shown)
+  ~ .modal-status-icon
+  .modal-status-warning,
+.modal-form-input:valid:required:not(:placeholder-shown)
+  ~ .modal-status-icon
+  .modal-status-success {
   opacity: 1;
+  transition-property: opacity;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .modal-form-message {

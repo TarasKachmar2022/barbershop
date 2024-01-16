@@ -1,4 +1,7 @@
 .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 600;
   font-size: 12px;
   line-height: calc(16 / 12);
@@ -27,8 +30,9 @@
 }
 
 .btn-dark {
-  display: block;
+  display: flex;
   margin: 0 auto;
+  max-width: 160px;
   color: var(--white-txt-cl);
   transition-property: background-color, box-shadow;
   transition-duration: var(--duration);
