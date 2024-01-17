@@ -75,6 +75,20 @@
   user-select: none;
 }
 
+.booking-form-input:invalid:required:not(:placeholder-shown)
+  ~ .booking-form-notfication,
+.booking-form-input:invalid:required:not(:placeholder-shown)
+  ~ .booking-status-icon
+  .booking-status-warning,
+.booking-form-input:valid:required:not(:placeholder-shown)
+  ~ .booking-status-icon
+  .booking-status-success {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+}
+
 .booking-status-icon {
   position: absolute;
   bottom: 5;
@@ -110,20 +124,6 @@
   line-height: calc(20 / 12);
   color: var(--modal-validate-warning-cl);
   opacity: 0;
-}
-
-.booking-form-input:invalid:required:not(:placeholder-shown)
-  ~ .booking-form-notfication,
-.booking-form-input:invalid:required:not(:placeholder-shown)
-  ~ .booking-status-icon
-  .booking-status-warning,
-.booking-form-input:valid:required:not(:placeholder-shown)
-  ~ .booking-status-icon
-  .booking-status-success {
-  opacity: 1;
-  transition-property: opacity;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--timing-function);
 }
 
 .booking-form-message {

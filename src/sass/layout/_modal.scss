@@ -108,10 +108,18 @@
 
 .modal-status-warning {
   fill: var(--modal-validate-warning-cl);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .modal-status-success {
   fill: var(--modal-validate-success-cl);
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .modal-form-input {
@@ -172,20 +180,6 @@
   opacity: 0;
 }
 
-.modal-status-warning {
-  opacity: 0;
-  transition-property: opacity;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--timing-function);
-}
-
-.modal-status-success {
-  opacity: 0;
-  transition-property: opacity;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--timing-function);
-}
-
 .modal-form-input:invalid:required:not(:placeholder-shown)
   ~ .modal-form-notfication,
 .modal-form-input:invalid:required:not(:placeholder-shown)
@@ -219,14 +213,17 @@
 }
 
 .modal-egreement-input {
-  opacity: 0;
-  // display: none;
-}
-
-.modal-egreement-icon {
+  display: none;
+  transition-property: fill;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .modal-form-icon-unchecked {
+  fill: #000000;
+  transition-property: fill;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .modal-form-icon-checked {
@@ -234,9 +231,6 @@
   transition-property: opacity;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
-
-.modal-egreement-input {
 }
 
 .modal-egreement-input:checked
@@ -255,6 +249,12 @@
   transition-property: opacity;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+}
+
+.modal-egreement-input:hover
+  + .modal-egreement-icon
+  .modal-form-icon-unchecked {
+  fill: var(--accent-cl);
 }
 
 .modal-egreement-text {
