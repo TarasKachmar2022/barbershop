@@ -5,12 +5,11 @@
   position: absolute;
   top: 15;
   right: 15;
-  width: 30px;
-  height: 30px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: var(--close-btn-cl);
-  border-radius: 50%;
+  border: none;
+  // border-width: 1px;
+  // border-style: solid;
+  // border-color: var(--close-btn-cl);
+  // border-radius: 50%;
   color: var(--close-btn-cl);
   background-color: transparent;
   transition-property: border-color, color;
