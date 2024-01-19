@@ -15,6 +15,7 @@
 
 .booking-form-wrap {
   position: relative;
+  display: block;
   margin-bottom: 44px;
 }
 
@@ -67,7 +68,6 @@
   position: absolute;
   top: -17;
   left: 0;
-  // color: var(--white-txt-cl);
 }
 
 .booking-form-input::placeholder {

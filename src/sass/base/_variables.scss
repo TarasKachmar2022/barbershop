@@ -28,9 +28,11 @@
   --psevdoelement-light-cl: rgba(157, 164, 189, 0.6);
   --psevdoelement-prices-cl: rgba(157, 164, 189, 0.12);
   // Icon color
+  --modal-icon-close-cl: #212121;
   --modal-validate-warning-cl: #d60202;
   --modal-validate-success-cl: #03b403;
-
+  --modal-agreement-icon-cl: #212121;
+  --icon-white-cl: #ffffff;
   // Accent colors
   --accent-cl: #ff6c00;
   --placeholder-accent-cl: rgba(255, 108, 0, 0.5);
@@ -38,12 +40,10 @@
   --btn-shadow: 0px 4px 4px 0px #00000026;
   --modal-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
     0px 1px 3px 0px #0000001f;
-  // Icon colors
-  --icon-white-cl: #ffffff;
   // Gradient colors
   --price-list-gredient-cl: #171a24, #171a2433;
   // Duration
-  --duration: 2500ms;
+  --duration: 250ms;
   // Timing function
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   // Other
