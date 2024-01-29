@@ -46,19 +46,19 @@
   align-items: baseline;
   justify-content: space-between;
   gap: 4px;
-}
 
-.prices__subitem::after {
-  content: '';
-  flex-grow: 1;
-  height: 1px;
-  background-color: var(--psevdoelement-prices-cl);
+  &::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: var(--psevdoelement-prices-cl);
+  }
 }
 
 .prices__subtext {
   flex-shrink: 0;
-}
 
-.prices__subtext:last-child {
-  order: 1;
+  &:last-child {
+    order: 1;
+  }
 }

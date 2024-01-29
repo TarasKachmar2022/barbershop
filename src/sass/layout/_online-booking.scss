@@ -36,6 +36,19 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+
+  .booking-form__input:hover + &,
+  .booking-form__input:focus + &,
+  .booking-form__input:not(:placeholder-shown) + & {
+    color: #fff;
+  }
+
+  .booking-form__input:focus + &,
+  .booking-form__input:not(:placeholder-shown) + & {
+    position: absolute;
+    top: -17;
+    left: 0;
+  }
 }
 
 .booking-form__input {
@@ -50,29 +63,16 @@
   transition-property: border-bottom;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.booking-form__input:hover,
-.booking-form__input:focus {
-  border-bottom: 1px solid var(--border-white-cl);
-}
+  &:hover,
+  &:focus {
+    border-bottom: 1px solid var(--border-white-cl);
+  }
 
-.booking-form__input:focus + .booking-form__label,
-.booking-form__input:hover + .booking-form__label,
-.booking-form__input:not(:placeholder-shown) + .booking-form__label {
-  color: #fff;
-}
-
-.booking-form__input:focus + .booking-form__label,
-.booking-form__input:not(:placeholder-shown) + .booking-form__label {
-  position: absolute;
-  top: -17;
-  left: 0;
-}
-
-.booking-form__input::placeholder {
-  color: transparent;
-  user-select: none;
+  &::placeholder {
+    color: transparent;
+    user-select: none;
+  }
 }
 
 .booking-form__input:invalid:required:not(:placeholder-shown)

@@ -13,13 +13,13 @@
   font-size: 11px;
   line-height: calc(15 / 11);
   letter-spacing: 0.2em;
-}
 
-.footer__list::before {
-  content: '';
-  width: 60px;
-  height: 1px;
-  background-color: var(--secondary-txt-cl);
+  &::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: var(--secondary-txt-cl);
+  }
 }
 
 .footer__link {
@@ -27,11 +27,11 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.footer__link:hover,
-.footer__link:focus {
-  color: var(--accent-cl);
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }
 
 .footer__copyright {

@@ -13,34 +13,34 @@
   min-width: 160px;
   min-height: 40px;
   background-color: transparent;
-}
 
-.btn--white {
-  color: var(--title-txt-cl);
-  transition-property: color, background-color, box-shadow;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--timing-function);
-}
+  &--white {
+    color: var(--title-txt-cl);
+    transition-property: color, background-color, box-shadow;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--timing-function);
+  }
 
-.btn--white:hover,
-.btn--white:focus {
-  color: var(--white-txt-cl);
-  background-color: var(--accent-cl);
-  box-shadow: var(--btn-shadow);
-}
+  &--white:hover,
+  &--white:focus {
+    color: var(--white-txt-cl);
+    background-color: var(--accent-cl);
+    box-shadow: var(--btn-shadow);
+  }
 
-.btn--dark {
-  display: flex;
-  margin: 0 auto;
-  max-width: 160px;
-  color: var(--white-txt-cl);
-  transition-property: background-color, box-shadow;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--timing-function);
-}
+  &--dark {
+    display: flex;
+    margin: 0 auto;
+    max-width: 160px;
+    color: var(--white-txt-cl);
+    transition-property: background-color, box-shadow;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--timing-function);
+  }
 
-.btn--dark:hover,
-.btn--dark:focus {
-  background-color: var(--accent-cl);
-  box-shadow: var(--btn-shadow);
+  &--dark:hover,
+  &--dark:focus {
+    background-color: var(--accent-cl);
+    box-shadow: var(--btn-shadow);
+  }
 }

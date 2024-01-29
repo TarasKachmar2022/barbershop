@@ -35,11 +35,11 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.contacts__link:hover,
-.contacts__link:focus {
-  color: var(--accent-cl);
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }
 
 .contacts__icon {

@@ -12,17 +12,16 @@
   // border-radius: 50%;
   color: var(--close-btn-cl);
   background-color: transparent;
-  transition-property: border-color, color;
+  transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.close-btn:hover,
-.close-btn:focus {
-  border-color: var(--accent-cl);
-  color: var(--accent-cl);
-}
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 
-.close-btn__icon {
-  fill: currentColor;
+  &__icon {
+    fill: currentColor;
+  }
 }

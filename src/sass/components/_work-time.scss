@@ -1,9 +1,9 @@
 .work-time__title {
   color: var(--white-txt-cl);
-}
 
-.work-time__title::before {
-  background-color: var(--psevdoelement-light-cl);
+  &::before {
+    background-color: var(--psevdoelement-light-cl);
+  }
 }
 
 .work-time__descr {

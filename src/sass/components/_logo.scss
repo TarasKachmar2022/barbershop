@@ -1,11 +1,11 @@
 .logo {
   fill: currentColor;
-}
 
-.logo--white {
-  color: var(--logo-white-cl);
-}
+  &--white {
+    color: var(--logo-white-cl);
+  }
 
-.logo--black {
-  color: var(--logo-black-cl);
+  &--black {
+    color: var(--logo-black-cl);
+  }
 }
