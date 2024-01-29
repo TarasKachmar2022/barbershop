@@ -8,16 +8,18 @@
   }
 }
 
-.mobile-container {
+.header-mobile__container {
   display: flex;
   justify-content: space-between;
   color: var(--icon-white-cl);
 }
 
-.mobile-logo {
-  fill: currentColor;
+.header-mobile__burger {
+  border: none;
+  color: var(--icon-white-cl);
+  background-color: transparent;
 }
 
-.mobile-header-icon {
+.header-mobile__icon {
   fill: currentColor;
 }

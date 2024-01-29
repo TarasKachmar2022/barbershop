@@ -2,24 +2,24 @@
   background-color: var(--background-dark-cl);
 }
 
-.booking-title {
+.booking__title {
   color: var(--white-txt-cl);
   text-align: center;
   margin-bottom: 44px;
 }
 
-.booking-form-group {
+.booking-form__group {
   display: flex;
   flex-direction: column;
 }
 
-.booking-form-wrap {
+.booking-form__wrap {
   position: relative;
   display: block;
   margin-bottom: 44px;
 }
 
-.booking-form-label {
+.booking-form__label {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,7 +38,7 @@
   transition-timing-function: var(--timing-function);
 }
 
-.booking-form-input {
+.booking-form__input {
   width: 100%;
   line-height: calc(15 / 11);
   color: var(--white-txt-cl);
@@ -52,50 +52,50 @@
   transition-timing-function: var(--timing-function);
 }
 
-.booking-form-input:hover,
-.booking-form-input:focus {
+.booking-form__input:hover,
+.booking-form__input:focus {
   border-bottom: 1px solid var(--border-white-cl);
 }
 
-.booking-form-input:focus + .booking-form-label,
-.booking-form-input:hover + .booking-form-label,
-.booking-form-input:not(:placeholder-shown) + .booking-form-label {
+.booking-form__input:focus + .booking-form__label,
+.booking-form__input:hover + .booking-form__label,
+.booking-form__input:not(:placeholder-shown) + .booking-form__label {
   color: #fff;
 }
 
-.booking-form-input:focus + .booking-form-label,
-.booking-form-input:not(:placeholder-shown) + .booking-form-label {
+.booking-form__input:focus + .booking-form__label,
+.booking-form__input:not(:placeholder-shown) + .booking-form__label {
   position: absolute;
   top: -17;
   left: 0;
 }
 
-.booking-form-input::placeholder {
+.booking-form__input::placeholder {
   color: transparent;
   user-select: none;
 }
 
-.booking-form-input:invalid:required:not(:placeholder-shown)
-  ~ .booking-form-notfication,
-.booking-form-input:invalid:required:not(:placeholder-shown)
-  ~ .booking-status-icon
-  .booking-status-warning,
-.booking-form-input:valid:required:not(:placeholder-shown)
-  ~ .booking-status-icon
-  .booking-status-success {
+.booking-form__input:invalid:required:not(:placeholder-shown)
+  ~ .booking-form__notfication,
+.booking-form__input:invalid:required:not(:placeholder-shown)
+  ~ .booking-status__icon
+  .booking-status__warning,
+.booking-form__input:valid:required:not(:placeholder-shown)
+  ~ .booking-status__icon
+  .booking-status__success {
   opacity: 1;
   transition-property: opacity;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
 }
 
-.booking-status-icon {
+.booking-status__icon {
   position: absolute;
   bottom: 5;
   right: 0;
 }
 
-.booking-status-warning {
+.booking-status__warning {
   opacity: 0;
   fill: var(--modal-validate-warning-cl);
   transition-property: opacity;
@@ -103,7 +103,7 @@
   transition-timing-function: var(--timing-function);
 }
 
-.booking-status-success {
+.booking-status__success {
   opacity: 0;
   fill: var(--modal-validate-success-cl);
   transition-property: opacity;
@@ -111,7 +111,7 @@
   transition-timing-function: var(--timing-function);
 }
 
-.booking-form-notfication {
+.booking-form__notfication {
   position: absolute;
   left: 50%;
   bottom: -20;
@@ -126,7 +126,7 @@
   opacity: 0;
 }
 
-.booking-form-message {
+.booking-form__message {
   height: 75px;
   resize: none;
   padding: 0;

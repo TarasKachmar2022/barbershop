@@ -11,14 +11,14 @@
   color: var(--uppertitle-txt-cl);
 }
 
-.prices-title {
+.prices__title {
   font-size: 40px;
   line-height: calc(47 / 40);
   color: var(--white-txt-cl);
   margin-bottom: 44px;
 }
 
-.prices-upperlist {
+.prices__upperlist {
   padding-top: 30px;
   padding-right: 20px;
   padding-bottom: 30px;
@@ -27,11 +27,11 @@
   background-image: linear-gradient(var(--price-list-gredient-cl));
 }
 
-.prices-upperitem:not(:last-child) {
+.prices__upperitem:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.prices-sublist {
+.prices__sublist {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -41,24 +41,24 @@
   color: var(--secondary-txt-cl);
 }
 
-.prices-subitem {
+.prices__subitem {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 4px;
 }
 
-.prices-subitem::after {
+.prices__subitem::after {
   content: '';
   flex-grow: 1;
   height: 1px;
   background-color: var(--psevdoelement-prices-cl);
 }
 
-.prices-subtext {
+.prices__subtext {
   flex-shrink: 0;
 }
 
-.prices-subtext:last-child {
+.prices__subtext:last-child {
   order: 1;
 }

@@ -6,21 +6,25 @@
   background-size: cover;
 }
 
-.contacts-list {
-  margin-bottom: 44px;
-}
-
-.contacts-title {
+.contacts__title {
   color: var(--white-txt-cl);
   text-align: center;
   margin-bottom: 40px;
 }
 
-.contacts-item {
+.contacts__list {
+  margin-bottom: 44px;
+}
+
+.contacts__item {
   margin-bottom: 20px;
 }
 
-.contacts-link {
+.contacts__address {
+  font-weight: 700;
+}
+
+.contacts__link {
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -33,16 +37,12 @@
   transition-timing-function: var(--timing-function);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: var(--accent-cl);
 }
 
-.contacts-address {
-  font-weight: 700;
-}
-
-.contacts-icon {
+.contacts__icon {
   stroke: currentColor;
   margin-right: 16px;
 }

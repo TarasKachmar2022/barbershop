@@ -1,12 +1,12 @@
-.time-title {
+.work-time__title {
   color: var(--white-txt-cl);
 }
 
-.time-title::before {
+.work-time__title::before {
   background-color: var(--psevdoelement-light-cl);
 }
 
-.work-descr {
+.work-time__descr {
   font-size: 18px;
   line-height: calc(30 / 18);
   letter-spacing: 0.02em;

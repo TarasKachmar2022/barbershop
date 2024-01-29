@@ -2,50 +2,50 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button class="close-btn" type="button" data-modal-close>
-      <svg class="close-icon" width="24" height="24">
+      <svg class="close-btn__icon" width="24" height="24">
         <use href="./images/sprite.svg#icon-close-btn"></use>
       </svg>
     </button>
-    <h2 class="modal-title section-title">Online-booking</h2>
+    <h2 class="modal__title section-title">Online-booking</h2>
     <form class="modal-form">
-      <div class="modal-form-group" role="group">
-        <label class="modal-form-wrap">
-          <span class="modal-form-label">Name *</span>
-          <span class="modal-form-container">
+      <div class="modal-form__group" role="group">
+        <label class="modal-form__wrap">
+          <span class="modal-form__label">Name *</span>
+          <span class="modal-form__container">
             <input
-              class="modal-form-input"
+              class="modal-form__input"
               type="text"
               name="username"
               placeholder="Peter"
               minlength="2"
               required
             />
-            <svg class="modal-form-icon" width="18" height="18">
+            <svg class="modal-form__icon" width="18" height="18">
               <use
-                class="modal-form-icon-use"
+                class="modal-form-icon__use"
                 href="./images/sprite.svg#icon-modal-person"
               ></use>
             </svg>
-            <svg class="modal-status-icon" width="18" height="18">
+            <svg class="modal-status__icon" width="18" height="18">
               <use
-                class="modal-status-warning"
+                class="modal-status__warning"
                 href="./images/sprite.svg#icon-warning"
               ></use>
               <use
-                class="modal-status-success"
+                class="modal-status__success"
                 href="./images/sprite.svg#icon-success"
               ></use>
             </svg>
-            <span class="modal-form-notfication">
+            <span class="modal-form__notfication">
               Please enter at least 2 characters
             </span>
           </span>
         </label>
-        <label class="modal-form-wrap">
-          <span class="modal-form-label">Phone *</span>
-          <span class="modal-form-container">
+        <label class="modal-form__wrap">
+          <span class="modal-form__label">Phone *</span>
+          <span class="modal-form__container">
             <input
-              class="modal-form-input"
+              class="modal-form__input"
               type="tel"
               name="userphone"
               placeholder="+380123456789"
@@ -55,23 +55,23 @@
               pattern="\+380\d{9}"
               required
             />
-            <svg class="modal-form-icon" width="18" height="18">
+            <svg class="modal-form__icon" width="18" height="18">
               <use
-                class="modal-form-icon-use"
+                class="modal-form-icon__use"
                 href="./images/sprite.svg#icon-modal-phone"
               ></use>
             </svg>
-            <svg class="modal-status-icon" width="18" height="18">
+            <svg class="modal-status__icon" width="18" height="18">
               <use
-                class="modal-status-warning"
+                class="modal-status__warning"
                 href="./images/sprite.svg#icon-warning"
               ></use>
               <use
-                class="modal-status-success"
+                class="modal-status__success"
                 href="./images/sprite.svg#icon-success"
               ></use>
             </svg>
-            <span class="modal-form-notfication">
+            <span class="modal-form__notfication">
               Enter the number in the format +380123456789
             </span>
           </span>
@@ -104,38 +104,40 @@
             >
           </span>
         </label> -->
-        <label class="modal-form-wrap">
-          <span class="modal-form-label">Message</span>
+        <label class="modal-form__wrap">
+          <span class="modal-form__label">Message</span>
           <textarea
-            class="modal-form-input modal-form-message"
+            class="modal-form__input modal-form__message"
             name="message"
             placeholder="Enter your message"
           ></textarea>
         </label>
       </div>
-      <label class="modal-egreement-wrap">
+      <label class="modal-egreement__wrap">
         <input
-          class="modal-egreement-input"
+          class="modal-egreement__input"
           type="checkbox"
           name="egreement"
           required
         />
-        <svg class="modal-egreement-icon" width="16" height="15">
+        <svg class="modal-egreement__icon" width="16" height="15">
           <use
-            class="modal-form-icon-unchecked"
+            class="modal-egreement__unchecked"
             href="./images/sprite.svg#icon-uncheked"
           ></use>
           <use
-            class="modal-form-icon-checked"
+            class="modal-egreement__checked"
             href="./images/sprite.svg#icon-checked"
           ></use>
         </svg>
-        <span class="modal-egreement-text"
+        <span class="modal-egreement__text"
           >Погоджуюся з розсилкою та приймаю
-          <a class="modal-egreement-link" href="">Умови договору</a></span
+          <a class="modal-egreement__link" href="">Умови договору</a></span
         >
       </label>
-      <button class="btn btn-white" type="submit" data-modal-close>send</button>
+      <button class="btn btn--white" type="submit" data-modal-close>
+        send
+      </button>
     </form>
   </div>
 </div>

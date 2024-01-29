@@ -1,11 +1,11 @@
-.social-list {
+.social__list {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
 }
 
-.social-link {
+.social__link {
   display: flex;
   background-color: var(--background-white-cl);
   fill: currentColor;
@@ -19,7 +19,7 @@
   transition-timing-function: var(--timing-function);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social__link:hover,
+.social__link:focus {
   fill: var(--accent-cl);
 }
