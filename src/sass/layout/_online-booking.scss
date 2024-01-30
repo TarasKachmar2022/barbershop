@@ -1,4 +1,5 @@
 .booking {
+  @include section();
   background-color: var(--background-dark-cl);
 }
 

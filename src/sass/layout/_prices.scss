@@ -1,4 +1,5 @@
 .prices {
+  @include section();
   background-color: var(--background-prices-cl);
   background-image: url(./../images/prices/prices-img-sm.png);
   background-repeat: no-repeat;

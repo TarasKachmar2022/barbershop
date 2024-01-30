@@ -1,6 +1,5 @@
 .footer {
-  padding-top: 44px;
-  padding-bottom: 44px;
+  @include section(44px, null, 44px);
 }
 
 .footer__list {

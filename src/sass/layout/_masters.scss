@@ -1,5 +1,6 @@
 .masters {
   --indent: 64px;
+  @include section();
   background-color: var(--background-light-cl);
 }
 

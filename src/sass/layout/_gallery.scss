@@ -1,3 +1,7 @@
+.gallery {
+  @include section();
+}
+
 .gallery__uppertitle {
   margin-bottom: 71px;
 }

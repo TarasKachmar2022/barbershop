@@ -4,12 +4,13 @@
 
 @import './utils/hidden';
 @import './utils/container';
-@import './utils/section';
+@import './utils/mixins';
 @import './utils/card-set';
 
 @import './components/logo';
 @import './components/nav';
 @import './components/btn';
+@import './components/titles';
 @import './components/social';
 @import './components/work-time';
 @import './components/close-btn';
@@ -25,5 +26,4 @@
 @import './layout/online-booking';
 @import './layout/contacts';
 @import './layout/footer';
-
 @import './layout/modal';

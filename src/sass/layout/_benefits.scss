@@ -1,3 +1,7 @@
+.benefits {
+  @include section();
+}
+
 .benefits__title {
   margin-bottom: 20px;
   min-width: 419px;

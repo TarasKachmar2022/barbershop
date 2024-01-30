@@ -1,4 +1,5 @@
 .contacts {
+  @include section();
   background-color: var(--background-dark-cl);
   background-image: url(./../images/contacts/contacts-img-sm.png);
   background-repeat: no-repeat;

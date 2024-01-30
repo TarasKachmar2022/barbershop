@@ -1,3 +1,7 @@
+.about {
+  @include section();
+}
+
 .about__list {
   display: none;
 }
