@@ -1,4 +1,4 @@
-@mixin section($pt: 84px, $pr: null, $pb: 84px, $pl: null) {
+@mixin section($pt: 84px, $pb: 84px) {
   padding-top: $pt;
   padding-bottom: $pb;
 }

@@ -5,7 +5,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1600px;
+
+  @media screen and (min-width: 768px) {
+    @include section(100px, 100px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include section(120px, 120px);
+  }
 }
 
 .uppertitle {
@@ -17,29 +24,80 @@
   line-height: calc(47 / 40);
   color: var(--white-txt-cl);
   margin-bottom: 44px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 42px;
+    line-height: calc(49 / 42);
+  }
 }
 
 .prices__upperlist {
+  margin-bottom: 44px;
   padding-top: 30px;
   padding-right: 20px;
   padding-bottom: 30px;
-  padding-left: 40px;
-  margin-bottom: 44px;
-  background-image: linear-gradient(var(--price-list-gredient-cl));
+  padding-left: 20px;
+
+  @media screen and (max-width: 1199px) {
+    background-image: linear-gradient(var(--price-list-gredient-cl));
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 32px;
+    padding-right: 40px;
+    padding-bottom: 32px;
+    padding-left: 40px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.prices__upperitem {
+  // flex-basis: calc((100% - var(--indent) * (var(--item)) - 1) / var(--item));
+  @media screen and (min-width: 1200px) {
+    width: 570px;
+  }
 }
 
 .prices__upperitem:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    margin-bottom: 20px;
+  }
 }
 
 .prices__sublist {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  font-size: 14px;
-  line-height: calc(20 / 14);
+  gap: 10px;
+  font-size: 10px;
+  line-height: calc(14 / 10);
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
+
+  @media screen and (min-width: 480px) {
+    font-size: 14px;
+    line-height: calc(20 / 14);
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: calc(30 / 18);
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(var(--price-list-gredient-cl));
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+  }
 }
 
 .prices__subitem {
@@ -53,6 +111,9 @@
     flex-grow: 1;
     height: 1px;
     background-color: var(--psevdoelement-prices-cl);
+  }
+
+  @media screen and (min-width: 1200px) {
   }
 }
 

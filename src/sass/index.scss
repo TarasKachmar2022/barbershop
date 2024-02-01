@@ -3,13 +3,13 @@
 @import './base/variables';
 
 @import './utils/hidden';
-@import './utils/container';
 @import './utils/mixins';
-@import './utils/card-set';
 
+@import './components/container';
 @import './components/logo';
 @import './components/nav';
 @import './components/btn';
+@import './components/card-set';
 @import './components/titles';
 @import './components/social';
 @import './components/work-time';
