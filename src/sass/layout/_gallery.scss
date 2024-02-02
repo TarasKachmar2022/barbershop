@@ -1,7 +1,19 @@
 .gallery {
   @include section();
+
+  @media screen and (min-width: 768px) {
+    @include section(100px, 100px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include section(120px, 120px);
+  }
 }
 
 .gallery__uppertitle {
   margin-bottom: 71px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 44px;
+  }
 }
