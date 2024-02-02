@@ -1,7 +1,10 @@
 .masters {
-  --indent: 64px;
   @include section();
   background-color: var(--background-light-cl);
+
+  @media screen and (max-width: 1199px) {
+    --indent: 64px;
+  }
 
   @media screen and (min-width: 768px) {
     @include section(100px, 100px);
