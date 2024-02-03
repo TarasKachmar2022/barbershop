@@ -1,0 +1,24 @@
+.booking-contacts {
+  background-color: var(--background-dark-cl);
+  background-image: url(./../images/contacts/contacts-img-sm.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  @media screen and (max-width: 1199px) {
+    background-size: 100% calc(50% - 25px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-size: calc(50% - 15px) 100%;
+    background-position: right;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+
+.booking-contacts__container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
