@@ -1,5 +1,17 @@
 .footer {
   @include section(44px, 44px);
+
+  @media screen and (min-width: 768px) {
+    @include section(56px, 56px);
+  }
+}
+
+.footer__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 }
 
 .footer__list {
@@ -7,11 +19,14 @@
   align-items: center;
   justify-content: right;
   gap: 40px;
-  margin-bottom: 20px;
   font-weight: 600;
   font-size: 11px;
   line-height: calc(15 / 11);
   letter-spacing: 0.2em;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
 
   &::before {
     content: '';

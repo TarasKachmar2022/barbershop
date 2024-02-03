@@ -7,7 +7,7 @@
 
   @media screen and (min-width: 1200px) {
     @include section(130px, 111px);
-    padding-left: 105px;
+    padding-left: 130px;
     width: 100%;
   }
 }
@@ -32,6 +32,10 @@
 .contacts__list {
   @media screen and (max-width: 767px) and (min-width: 1200px) {
     margin-bottom: 44px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 70px;
   }
 }
 
