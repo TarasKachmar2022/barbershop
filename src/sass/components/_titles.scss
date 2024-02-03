@@ -1,13 +1,18 @@
 .section-uppertitle {
   font-weight: 600;
-  font-size: 11px;
-  line-height: calc(15 / 11);
+  font-size: 9px;
+  line-height: calc(13 / 9);
   text-transform: uppercase;
   color: var(--title-txt-cl);
   margin-bottom: 20px;
   display: flex;
   align-items: center;
   gap: 20px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 11px;
+    line-height: calc(15 / 11);
+  }
 }
 
 .section-uppertitle::before {
@@ -19,8 +24,13 @@
 
 .section-title {
   font-family: var(--title-font);
-  font-size: 42px;
-  line-height: calc(49 / 42);
+  font-size: 26px;
+  line-height: calc(30 / 26);
   letter-spacing: 0.05em;
   color: var(--title-txt-cl);
+
+  @media screen and (min-width: 480px) {
+    font-size: 42px;
+    line-height: calc(49 / 42);
+  }
 }

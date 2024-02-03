@@ -75,7 +75,44 @@
             </span>
           </span>
         </label>
+        <label class="modal-form__wrap">
+          <span class="modal-form__label">Message</span>
+          <textarea
+            class="modal-form__input modal-form__message"
+            name="message"
+            placeholder="Enter your message"
+          ></textarea>
+        </label>
       </div>
+      <label class="modal-egreement__wrap">
+        <input
+          class="modal-egreement__input"
+          type="checkbox"
+          name="egreement"
+          required
+        />
+        <svg class="modal-egreement__icon" width="16" height="15">
+          <use
+            class="modal-egreement__unchecked"
+            href="./images/sprite.svg#icon-uncheked"
+          ></use>
+          <use
+            class="modal-egreement__checked"
+            href="./images/sprite.svg#icon-checked"
+          ></use>
+        </svg>
+        <span class="modal-egreement__text"
+          >Погоджуюся з розсилкою та приймаю
+          <a class="modal-egreement__link" href="">Умови договору</a>
+        </span>
+      </label>
+      <button class="btn btn--white" type="submit" data-modal-close>
+        send
+      </button>
     </form>
   </div>
 </div>
+<!-- </div>
+</form>
+</div>
+</div> -->

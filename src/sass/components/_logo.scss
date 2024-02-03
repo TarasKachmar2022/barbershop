@@ -1,11 +1,14 @@
 .logo {
   fill: currentColor;
-
-  &--white {
-    color: var(--logo-white-cl);
-  }
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
 
   &--black {
     color: var(--logo-black-cl);
+  }
+
+  &--white {
+    color: var(--logo-white-cl);
   }
 }
