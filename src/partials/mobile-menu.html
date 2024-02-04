@@ -1,21 +1,25 @@
 <div class="overlay">
   <div class="menu">
-    <button class="menu__close-btn" type="button">
-      <svg class="" width="24" height="24">
+    <button class="menu__close-btn close-btn" type="button">
+      <svg class="close-btn__icon" width="24" height="24">
         <use href="./images//sprite.svg#icon-close-btn"></use>
       </svg>
     </button>
-    <nav>
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Services and prices</a></li>
-        <li><a href="">Barbers</a></li>
-        <li><a href="">Contacts</a></li>
+    <nav class="site-nav">
+      <ul class="menu__list site-nav__list">
+        <li><a class="site-nav__link" href="#about">About</a></li>
+        <li>
+          <a class="site-nav__link" href="#prices">Services and prices</a>
+        </li>
+        <li><a class="site-nav__link" href="#masters">Barbers</a></li>
+        <li><a class="site-nav__link" href="#contacts">Contacts</a></li>
       </ul>
     </nav>
-    <div class="menu-contatcs">
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button class="menu__btn btn" type="button">online-booking</button>
+    <div class="menu__contatcs">
+      <a class="menu__phone" href="tel:+380441111111">+38 044 111 11 11</a>
+      <button class="menu__btn btn btn--white" type="button">
+        online-booking
+      </button>
     </div>
     <div class="menu-socials">
       <ul>
