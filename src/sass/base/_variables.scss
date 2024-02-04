@@ -31,6 +31,7 @@
   // Psevdoelement colors
   --psevdoelement-light-cl: rgba(157, 164, 189, 0.6);
   --psevdoelement-prices-cl: rgba(157, 164, 189, 0.12);
+  --psevdoelement-socials-cl: #303030;
   // Icon color
   --modal-icon-close-cl: #212121;
   --modal-validate-warning-cl: #d60202;
@@ -51,6 +52,8 @@
   --duration-slow: 600ms;
   // Timing function
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  // Delays
+  --delay-menu: 250ms;
   // Other
   --indent: 30px;
   --item: 2;

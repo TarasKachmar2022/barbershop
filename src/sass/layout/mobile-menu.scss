@@ -6,6 +6,20 @@
   height: 100%;
   z-index: 200;
   background-color: var(--backdrop-cl);
+  backdrop-filter: blur(3px);
+  transition-property: opacity, visibility;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition-property: opacity, visibility;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--timing-function);
+    transition-delay: var(--delay-menu);
+  }
 }
 
 .menu {
@@ -17,9 +31,25 @@
   color: var(--mobile-menu-txt-cl);
   background-color: var(--background-white-cl);
   padding-top: 118px;
-  padding-right: 96px;
-  padding-bottom: 227px;
-  padding-left: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  transform: translateX(0);
+  transition-property: transform;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+  transition-delay: var(--delay-menu);
+
+  @media screen and (min-width: 480px) {
+    padding-top: 118px;
+    padding-right: 10px;
+    padding-bottom: 227px;
+    padding-left: 40px;
+  }
+
+  .overlay.is-hidden & {
+    transform: translateX(100%);
+    transition-delay: 0ms;
+  }
 }
 
 .menu__close-btn {
@@ -44,15 +74,49 @@
   font-size: 18px;
   line-height: calc(25 / 18);
   letter-spacing: 0.1em;
-  margin-bottom: 69px;
+  margin-bottom: 70px;
 }
 
 .menu__phone {
   display: block;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
 
 .menu__btn {
   display: flex;
   min-width: 194px;
+}
+
+.menu__socials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.menu__socials-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.2em;
+
+  @media screen and (min-width: 480px) {
+    font-size: 14px;
+    line-height: calc(19 / 14);
+  }
+
+  &--decorated {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    &::before {
+      content: '';
+      width: 60px;
+      height: 1px;
+      background-color: var(--title-txt-cl);
+    }
+  }
+}
+
+.menu__link {
+  margin-left: 100px;
 }

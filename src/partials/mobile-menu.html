@@ -1,6 +1,6 @@
-<div class="overlay">
+<div class="overlay is-hidden" data-menu>
   <div class="menu">
-    <button class="menu__close-btn close-btn" type="button">
+    <button class="menu__close-btn close-btn" type="button" data-menu-close>
       <svg class="close-btn__icon" width="24" height="24">
         <use href="./images//sprite.svg#icon-close-btn"></use>
       </svg>
@@ -17,15 +17,19 @@
     </nav>
     <div class="menu__contatcs">
       <a class="menu__phone" href="tel:+380441111111">+38 044 111 11 11</a>
-      <button class="menu__btn btn btn--white" type="button">
+      <button
+        class="menu__btn btn btn--white"
+        type="button"
+        data-menu-modal-open
+      >
         online-booking
       </button>
     </div>
-    <div class="menu-social-iconss">
-      <ul>
+    <div class="menu__socials">
+      <ul class="menu__socials-list">
         <li>
           <a
-            class=""
+            class="menu__socials-link menu__socials-link--decorated socials__link"
             href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -34,7 +38,7 @@
         </li>
         <li>
           <a
-            class=""
+            class="menu__link menu__socials-link socials__link"
             href="https://www.youtube.com/"
             target="_blank"
             rel="noopener noreferrer"
