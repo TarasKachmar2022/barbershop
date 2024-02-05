@@ -56,7 +56,12 @@
 
   @media screen and (min-width: 1200px) {
     display: flex;
-    gap: 30px;
+    gap: var(--indent);
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+
     perspective: 1000px;
   }
 }
