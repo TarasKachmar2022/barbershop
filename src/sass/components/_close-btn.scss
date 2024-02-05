@@ -1,7 +1,5 @@
 .close-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %centeredFlex;
   position: absolute;
   top: 15;
   right: 15;

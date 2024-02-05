@@ -1,19 +1,15 @@
 .social-icons__list {
-  display: flex;
+  @extend %centeredFlex;
   gap: 10px;
-  align-items: center;
-  justify-content: center;
 }
 
 .social-icons__link {
-  display: flex;
+  @extend %centeredFlex;
   background-color: var(--background-white-cl);
   fill: currentColor;
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  align-items: center;
-  justify-content: center;
   transition-property: fill;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);

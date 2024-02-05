@@ -3,8 +3,7 @@
 }
 
 .site-nav__list {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   gap: 30px;
 
   @media screen and (min-width: 768px) {

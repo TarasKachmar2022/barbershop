@@ -1,6 +1,5 @@
 .socials__list {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   justify-content: right;
   gap: 40px;
   font-weight: 500;

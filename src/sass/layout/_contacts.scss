@@ -52,8 +52,7 @@
 }
 
 .contacts__link {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   font-size: 18px;
   line-height: calc(30 / 18);
   letter-spacing: 0.02em;
