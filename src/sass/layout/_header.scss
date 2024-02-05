@@ -38,7 +38,7 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    font-size: 12px;
+    font-size: var(--fs-header-contacts);
     line-height: calc(16 / 12);
     letter-spacing: 0.1em;
     margin-left: auto;

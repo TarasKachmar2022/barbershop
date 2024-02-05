@@ -53,7 +53,7 @@
 
 .contacts__link {
   @extend %align-list;
-  font-size: 18px;
+  font-size: var(--fs-contacts-link);
   line-height: calc(30 / 18);
   letter-spacing: 0.02em;
   fill: transparent;

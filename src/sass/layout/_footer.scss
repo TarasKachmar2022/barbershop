@@ -16,7 +16,7 @@
 
 .footer__copyright {
   font-weight: 600;
-  font-size: 11px;
+  font-size: var(--fs-footer-copyright);
   line-height: calc(15 / 11);
   letter-spacing: 0.2em;
   color: var(--secondary-txt-cl);

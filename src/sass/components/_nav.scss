@@ -4,10 +4,10 @@
 
 .site-nav__list {
   @extend %align-list;
-  gap: 30px;
+  gap: var(--indent);
 
   @media screen and (min-width: 768px) {
-    font-size: 12px;
+    font-size: var(--fs-nav);
     line-height: calc(16 / 12);
     letter-spacing: 0.1em;
     margin-left: 70px;

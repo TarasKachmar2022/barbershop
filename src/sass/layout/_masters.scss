@@ -25,7 +25,7 @@
 
 .masters__subtitle {
   font-weight: 400;
-  font-size: 18px;
+  font-size: var(--fs-masters-subtitle);
   line-height: calc(25 / 18);
   color: var(--title-txt-cl);
   text-align: center;
@@ -33,7 +33,7 @@
 }
 
 .masters__descr {
-  font-size: 14px;
+  font-size: var(--fs-masters-descr);
   line-height: calc(19 / 14);
   color: var(--accent-cl);
   text-align: center;

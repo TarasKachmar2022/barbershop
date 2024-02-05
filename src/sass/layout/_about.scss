@@ -42,13 +42,13 @@
 }
 
 .about__title {
-  font-size: 28px;
+  font-size: var(--fs-about-title-s);
   line-height: calc(33 / 28);
   margin-bottom: 20px;
   max-width: 306px;
 
   @media screen and (min-width: 1200px) {
-    font-size: 42px;
+    font-size: var(--fs-about-title-l);
     line-height: calc(49 / 42);
     max-width: 470px;
   }
@@ -56,18 +56,18 @@
 
 .about__subtitle {
   font-weight: 400;
-  font-size: 16px;
+  font-size: var(--fs-about-subtitle-s);
   line-height: calc(26 / 16);
   margin-bottom: 20px;
 
   @media screen and (min-width: 768px) {
-    font-size: 18px;
+    font-size: var(--fs-about-subtitle-l);
     line-height: calc(30 / 18);
   }
 }
 
 .about__descr {
-  font-size: 14px;
+  font-size: var(--fs-about-descr);
   line-height: calc(26 / 14);
   margin-bottom: 40px;
 

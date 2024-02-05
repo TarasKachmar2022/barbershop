@@ -62,7 +62,7 @@
   align-items: flex-start;
   gap: 24px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: var(--fs-menu-list);
   line-height: calc(25 / 18);
   letter-spacing: 0.1em;
   margin-left: 0;
@@ -71,7 +71,7 @@
 
 .menu__contatcs {
   font-weight: 600;
-  font-size: 18px;
+  font-size: var(--fs-menu-contacts);
   line-height: calc(25 / 18);
   letter-spacing: 0.1em;
   margin-bottom: 70px;
@@ -102,12 +102,12 @@
 
 .menu__socials-link {
   font-weight: 600;
-  font-size: 12px;
+  font-size: var(--fs-socials-link-s);
   line-height: calc(16 / 12);
   letter-spacing: 0.2em;
 
   @media screen and (min-width: 480px) {
-    font-size: 14px;
+    font-size: var(--fs-socials-link-l);
     line-height: calc(19 / 14);
   }
 
