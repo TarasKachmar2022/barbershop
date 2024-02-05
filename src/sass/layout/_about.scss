@@ -55,7 +55,7 @@
 }
 
 .about__subtitle {
-  font-weight: 400;
+  font-weight: var(--fw-s);
   font-size: var(--fs-about-subtitle-s);
   line-height: calc(26 / 16);
   margin-bottom: 20px;

@@ -1,6 +1,6 @@
 .section-uppertitle {
   @extend %align-list;
-  font-weight: 600;
+  font-weight: var(--fw-l);
   font-size: var(--fs-uppertitle-s);
   line-height: calc(13 / 9);
   text-transform: uppercase;

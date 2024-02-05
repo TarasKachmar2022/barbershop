@@ -24,7 +24,7 @@
 }
 
 .masters__subtitle {
-  font-weight: 400;
+  font-weight: var(--fw-s);
   font-size: var(--fs-masters-subtitle);
   line-height: calc(25 / 18);
   color: var(--title-txt-cl);

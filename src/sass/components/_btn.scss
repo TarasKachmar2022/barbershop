@@ -2,7 +2,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
+  font-weight: var(--fw-l);
   font-size: var(--fs-btn);
   line-height: calc(16 / 12);
   letter-spacing: 0.09em;

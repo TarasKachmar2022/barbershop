@@ -48,7 +48,7 @@
   transition-property: transform;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-  font-weight: 600;
+  font-weight: var(--fw-l);
   font-size: var(--fs-booking-form-label);
   line-height: calc(15 / 11);
   letter-spacing: 0.1em;

@@ -124,7 +124,7 @@
   }
 
   &::placeholder {
-    font-weight: 400;
+    font-weight: var(--fw-s);
     font-size: var(--fs-modal-form-placeholder);
     line-height: calc(18 / 16);
     letter-spacing: 0.1em;

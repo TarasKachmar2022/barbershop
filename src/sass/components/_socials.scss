@@ -2,7 +2,7 @@
   @extend %align-list;
   justify-content: right;
   gap: 40px;
-  font-weight: 500;
+  font-weight: var(--fw-m);
   font-size: var(--fs-socials);
   line-height: calc(15 / 11);
   letter-spacing: 0.2em;

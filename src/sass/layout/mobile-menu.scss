@@ -61,7 +61,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  font-weight: 600;
+  font-weight: var(--fw-l);
   font-size: var(--fs-menu-list);
   line-height: calc(25 / 18);
   letter-spacing: 0.1em;
@@ -70,7 +70,7 @@
 }
 
 .menu__contatcs {
-  font-weight: 600;
+  font-weight: var(--fw-l);
   font-size: var(--fs-menu-contacts);
   line-height: calc(25 / 18);
   letter-spacing: 0.1em;
@@ -101,7 +101,7 @@
 }
 
 .menu__socials-link {
-  font-weight: 600;
+  font-weight: var(--fw-l);
   font-size: var(--fs-socials-link-s);
   line-height: calc(16 / 12);
   letter-spacing: 0.2em;
