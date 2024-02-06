@@ -18,6 +18,14 @@
   border: none;
   color: var(--icon-white-cl);
   background-color: transparent;
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }
 
 .header-mobile__icon {
