@@ -8,7 +8,7 @@
 
   @media screen and (min-width: 768px) {
     font-size: var(--fs-nav);
-    line-height: calc(16 / 12);
+    line-height: var(--lh-nav);
     letter-spacing: 0.1em;
     margin-left: 70px;
   }

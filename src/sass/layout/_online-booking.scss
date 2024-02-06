@@ -50,7 +50,7 @@
   transition-timing-function: var(--timing-function);
   font-weight: var(--fw-l);
   font-size: var(--fs-booking-form-label);
-  line-height: calc(15 / 11);
+  line-height: var(--lh-booking-form-label);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--placeholder-grey-cl);
@@ -74,7 +74,7 @@
 
 .booking-form__input {
   width: 100%;
-  line-height: calc(15 / 11);
+  line-height: var(--lh-booking-form-input);
   color: var(--white-txt-cl);
   background-color: transparent;
   border: none;
@@ -142,7 +142,7 @@
   align-items: center;
   justify-content: center;
   font-size: var(--fs-notification);
-  line-height: calc(20 / 12);
+  line-height: var(--lh-notification);
   color: var(--modal-validate-warning-cl);
   opacity: 0;
 }

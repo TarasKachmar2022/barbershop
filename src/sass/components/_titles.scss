@@ -2,7 +2,7 @@
   @extend %align-list;
   font-weight: var(--fw-l);
   font-size: var(--fs-uppertitle-s);
-  line-height: calc(13 / 9);
+  line-height: var(--lh-uppertitle-s);
   text-transform: uppercase;
   color: var(--title-txt-cl);
   margin-bottom: 20px;
@@ -10,7 +10,7 @@
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-uppertitle-m);
-    line-height: calc(15 / 11);
+    line-height: var(--lh-uppertitle-m);
   }
 }
 
@@ -24,12 +24,12 @@
 .section-title {
   font-family: var(--title-font);
   font-size: var(--fs-section-title-s);
-  line-height: calc(30 / 26);
+  line-height: var(--lh-section-title-s);
   letter-spacing: 0.05em;
   color: var(--title-txt-cl);
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-section-title-l);
-    line-height: calc(49 / 42);
+    line-height: var(--lh-section-title-m);
   }
 }

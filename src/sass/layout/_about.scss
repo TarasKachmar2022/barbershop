@@ -43,13 +43,13 @@
 
 .about__title {
   font-size: var(--fs-about-title-s);
-  line-height: calc(33 / 28);
+  line-height: var(--lh-about-title-s);
   margin-bottom: 20px;
   max-width: 306px;
 
   @media screen and (min-width: 1200px) {
     font-size: var(--fs-about-title-l);
-    line-height: calc(49 / 42);
+    line-height: var(--lh-about-title-d);
     max-width: 470px;
   }
 }
@@ -57,18 +57,18 @@
 .about__subtitle {
   font-weight: var(--fw-s);
   font-size: var(--fs-about-subtitle-s);
-  line-height: calc(26 / 16);
+  line-height: var(--lh-about-subtitle-s);
   margin-bottom: 20px;
 
   @media screen and (min-width: 768px) {
     font-size: var(--fs-about-subtitle-l);
-    line-height: calc(30 / 18);
+    line-height: var(--lh-about-subtitle-m);
   }
 }
 
 .about__descr {
   font-size: var(--fs-about-descr);
-  line-height: calc(26 / 14);
+  line-height: var(--lh-about-descr);
   margin-bottom: 40px;
 
   @media screen and (min-width: 768px) {

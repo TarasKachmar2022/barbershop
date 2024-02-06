@@ -27,12 +27,12 @@
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-prices-title-m);
-    line-height: calc(47 / 40);
+    line-height: var(--lh-prices-title-m);
   }
 
   @media screen and (min-width: 768px) {
     font-size: var(--fs-prices-title-l);
-    line-height: calc(49 / 42);
+    line-height: var(--lh-prices-title-t);
   }
 }
 
@@ -109,19 +109,19 @@
   flex-direction: column;
   gap: 10px;
   font-size: var(--fs-prices-sublist-s);
-  line-height: calc(14 / 10);
+  line-height: var(--lh-prices-subtitle-s);
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-prices-sublist-m);
-    line-height: calc(20 / 14);
+    line-height: var(--lh-prices-subtitle-m);
     gap: 20px;
   }
 
   @media screen and (min-width: 768px) {
     font-size: var(--fs-prices-sublist-l);
-    line-height: calc(30 / 18);
+    line-height: var(--lh-prices-subtitle-t);
   }
 
   @media screen and (min-width: 1200px) {

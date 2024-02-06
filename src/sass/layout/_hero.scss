@@ -70,19 +70,19 @@
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-hero-maintitle-l);
-    line-height: calc(56 / 48);
+    line-height: var(--lh-hero-maintitle);
   }
 }
 
 .hero__descr {
   font-size: var(--fs-hero-descr-s);
-  line-height: calc(20 / 12);
+  line-height: var(--lh-hero-descr);
   color: var(--secondary-txt-cl);
   width: 250px;
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-hero-descr-l);
-    line-height: calc(26 / 16);
+    line-height: var(--lh-hero-descr-m);
     width: 321px;
   }
 }

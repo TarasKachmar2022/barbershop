@@ -1,5 +1,6 @@
 .header {
   display: none;
+
   @media screen and (min-width: 768px) {
     position: fixed;
     top: 0;
@@ -39,7 +40,7 @@
     flex-direction: column;
     gap: 10px;
     font-size: var(--fs-header-contacts);
-    line-height: calc(16 / 12);
+    line-height: var(--lh-header-contacts);
     letter-spacing: 0.1em;
     margin-left: auto;
     padding-right: 10px;

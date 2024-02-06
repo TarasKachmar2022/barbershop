@@ -4,7 +4,7 @@
   justify-content: center;
   font-weight: var(--fw-l);
   font-size: var(--fs-btn);
-  line-height: calc(16 / 12);
+  line-height: var(--lh-btn);
   letter-spacing: 0.09em;
   text-transform: uppercase;
   border: 1px solid var(--accent-cl);

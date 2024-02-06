@@ -61,14 +61,14 @@
 
 .modal__title {
   font-size: var(--fs-modal-title-s);
-  line-height: calc(29 / 25);
+  line-height: var(--lh-modal-title-s);
   color: var(--title-txt-cl);
   text-align: center;
   margin-bottom: 15px;
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-modal-title-m);
-    line-height: calc(42 / 36);
+    line-height: var(--lh-modal-title-m);
   }
 }
 
@@ -92,7 +92,7 @@
   display: flex;
   flex-direction: column;
   font-size: var(--fs-modal-form-label);
-  line-height: calc(14 / 12);
+  line-height: var(--lh-modal-form-label);
   letter-spacing: 0.01em;
   margin-bottom: 4px;
   color: var(--secondary-txt-cl);
@@ -126,7 +126,7 @@
   &::placeholder {
     font-weight: var(--fw-s);
     font-size: var(--fs-modal-form-placeholder);
-    line-height: calc(18 / 16);
+    line-height: var(--lh-modal-input-placeholder);
     letter-spacing: 0.1em;
     color: var(--placeholder-light-cl);
     transition-property: color;
@@ -270,14 +270,14 @@
 
 .modal-egreement__text {
   font-size: var(--fs-modal-egreement-s);
-  line-height: calc(22 / 12);
+  line-height: var(--lh-modal-egreement-text-s);
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
   margin-left: 8px;
 
   @media screen and (min-width: 768px) {
     font-size: var(--fs-modal-egreement-l);
-    line-height: calc(24 / 14);
+    line-height: var(--lh-modal-egreement-text-t);
   }
 }
 

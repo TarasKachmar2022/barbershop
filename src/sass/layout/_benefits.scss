@@ -34,7 +34,7 @@
 
 .benefits__text {
   font-size: var(--fs-benefits-text);
-  line-height: calc(30 / 18);
+  line-height: var(--lh-benefits-text);
 
   @media screen and (max-width: 1199px) {
     margin-bottom: 44px;
@@ -72,7 +72,7 @@
   flex-direction: column;
   font-weight: var(--fw-l);
   font-size: var(--fs-benefits-item);
-  line-height: calc(15 / 11);
+  line-height: var(--lh-benefits-item);
   color: var(--title-txt-cl);
   background-color: var(--background-light-cl);
   text-align: center;
@@ -112,7 +112,7 @@
   position: relative;
   font-weight: var(--fw-xl);
   font-size: var(--fs-benefits-value);
-  line-height: calc(57 / 42);
+  line-height: var(--lh-benefits-value);
   letter-spacing: 0.05em;
   color: var(--title-txt-cl);
   margin-bottom: 6px;
@@ -124,7 +124,7 @@
     right: -14px;
     font-weight: var(--fw-l);
     font-size: var(--fs-benefits-after);
-    line-height: calc(22 / 16);
+    line-height: var(--lh-benefits-after);
     text-align: center;
     color: var(--accent-cl);
   }
