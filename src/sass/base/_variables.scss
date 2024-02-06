@@ -69,7 +69,7 @@
   --fs-uppertitle-m: 11px;
   --fs-section-title-s: 26px;
   --fs-section-title-l: 42px;
-  --fs-notification: 12px;
+  --fs-notification: 11px;
   --fs-header-contacts: 12px;
   --fs-hero-maintitle-s: 40px;
   --fs-hero-maintitle-l: 48px;
@@ -148,7 +148,14 @@
   --lh-menu-social-link-s: 1.33;
   --lh-menu-social-link-m: 1.36;
   // Letter spacings
-
+  letter-spacing: 0em;
+  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
+  letter-spacing: 0.09em;
+  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   // Other
   --indent: 30px;
   --item: 2;

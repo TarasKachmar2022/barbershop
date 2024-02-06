@@ -138,11 +138,10 @@
   bottom: -20;
   transform: translateX(-50%);
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %centeredFlex;
   font-size: var(--fs-notification);
   line-height: var(--lh-notification);
+  letter-spacing: 0.01em;
   color: var(--modal-validate-warning-cl);
   opacity: 0;
 }

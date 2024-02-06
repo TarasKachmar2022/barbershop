@@ -192,6 +192,7 @@
   width: 100%;
   @extend %centeredFlex;
   font-size: var(--fs-notification);
+  letter-spacing: 0.01em;
   color: red;
   opacity: 0;
 }
