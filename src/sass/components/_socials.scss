@@ -5,7 +5,7 @@
   font-weight: var(--fw-m);
   font-size: var(--fs-socials);
   line-height: var(--lh-socials);
-  letter-spacing: 0.2em;
+  letter-spacing: var(--ls-socials);
 
   @media screen and (max-width: 767px) {
     margin-bottom: 20px;

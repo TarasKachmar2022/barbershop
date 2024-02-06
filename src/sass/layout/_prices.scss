@@ -110,7 +110,7 @@
   gap: 10px;
   font-size: var(--fs-prices-sublist-s);
   line-height: var(--lh-prices-subtitle-s);
-  letter-spacing: 0.02em;
+  letter-spacing: var(--ls-prices-sublist);
   color: var(--secondary-txt-cl);
 
   @media screen and (min-width: 480px) {

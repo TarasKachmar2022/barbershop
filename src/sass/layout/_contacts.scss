@@ -55,7 +55,7 @@
   @extend %align-list;
   font-size: var(--fs-contacts-link);
   line-height: var(--lh-contacts-link);
-  letter-spacing: 0.02em;
+  letter-spacing: var(--ls-contacts-link);
   fill: transparent;
   color: var(--secondary-txt-cl);
   transition-property: color;

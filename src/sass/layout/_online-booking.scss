@@ -51,7 +51,7 @@
   font-weight: var(--fw-l);
   font-size: var(--fs-booking-form-label);
   line-height: var(--lh-booking-form-label);
-  letter-spacing: 0.1em;
+  letter-spacing: var(--ls-booking-form-label);
   text-transform: uppercase;
   color: var(--placeholder-grey-cl);
   transition-property: color;
@@ -141,7 +141,7 @@
   @extend %centeredFlex;
   font-size: var(--fs-notification);
   line-height: var(--lh-notification);
-  letter-spacing: 0.01em;
+  letter-spacing: var(--ls-notification);
   color: var(--modal-validate-warning-cl);
   opacity: 0;
 }

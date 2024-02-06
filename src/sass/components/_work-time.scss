@@ -8,7 +8,7 @@
 
 .work-time__descr {
   font-size: var(--fs-work-time);
-  line-height: calc(30 / 18);
-  letter-spacing: 0.02em;
+  line-height: var(--lh-work-time);
+  letter-spacing: var(--ls-work-time);
   color: var(--secondary-txt-cl);
 }

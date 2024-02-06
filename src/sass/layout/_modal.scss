@@ -93,7 +93,7 @@
   flex-direction: column;
   font-size: var(--fs-modal-form-label);
   line-height: var(--lh-modal-form-label);
-  letter-spacing: 0.01em;
+  letter-spacing: var(--ls-modal-form);
   margin-bottom: 4px;
   color: var(--secondary-txt-cl);
 }
@@ -127,7 +127,7 @@
     font-weight: var(--fw-s);
     font-size: var(--fs-modal-form-placeholder);
     line-height: var(--lh-modal-input-placeholder);
-    letter-spacing: 0.1em;
+    letter-spacing: var(--ls-modal-input-placeholder);
     color: var(--placeholder-light-cl);
     transition-property: color;
     transition-duration: var(--duration);
@@ -192,7 +192,7 @@
   width: 100%;
   @extend %centeredFlex;
   font-size: var(--fs-notification);
-  letter-spacing: 0.01em;
+  letter-spacing: var(--ls-notification);
   color: red;
   opacity: 0;
 }
@@ -272,7 +272,7 @@
 .modal-egreement__text {
   font-size: var(--fs-modal-egreement-s);
   line-height: var(--lh-modal-egreement-text-s);
-  letter-spacing: 0.03em;
+  letter-spacing: var(--ls-modal-egreement-text);
   color: var(--secondary-txt-cl);
   margin-left: 8px;
 

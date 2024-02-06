@@ -57,14 +57,14 @@
 }
 
 .hero__uppertitle {
-  letter-spacing: 0.1em;
+  letter-spacing: var(--ls-hero-uppertitle);
   margin-bottom: 20px;
 }
 
 .hero__maintitle {
   font-family: var(--title-font);
   font-size: var(--fs-hero-maintitle-s);
-  letter-spacing: 0.05em;
+  letter-spacing: var(--ls-hero-maintitle);
   color: var(--white-txt-cl);
   margin-bottom: 20px;
 

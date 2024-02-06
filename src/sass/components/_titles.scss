@@ -25,7 +25,7 @@
   font-family: var(--title-font);
   font-size: var(--fs-section-title-s);
   line-height: var(--lh-section-title-s);
-  letter-spacing: 0.05em;
+  letter-spacing: var(--ls-section-title);
   color: var(--title-txt-cl);
 
   @media screen and (min-width: 480px) {

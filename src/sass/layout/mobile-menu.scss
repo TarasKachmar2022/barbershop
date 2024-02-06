@@ -64,7 +64,7 @@
   font-weight: var(--fw-l);
   font-size: var(--fs-menu-list);
   line-height: var(--lh-menu-list);
-  letter-spacing: 0.1em;
+  letter-spacing: var(--ls-menu-list);
   margin-left: 0;
   margin-bottom: 64px;
 }
@@ -73,7 +73,7 @@
   font-weight: var(--fw-l);
   font-size: var(--fs-menu-contacts);
   line-height: var(--lh-menu-contacts);
-  letter-spacing: 0.1em;
+  letter-spacing: var(--ls-menu-contacts);
   margin-bottom: 70px;
 }
 
@@ -104,7 +104,7 @@
   font-weight: var(--fw-l);
   font-size: var(--fs-socials-link-s);
   line-height: var(--lh-menu-social-link-s);
-  letter-spacing: 0.2em;
+  letter-spacing: var(--ls-menu-socials-link);
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-socials-link-l);
