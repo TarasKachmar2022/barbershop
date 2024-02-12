@@ -5,58 +5,6 @@
   // Fonts
   --main-font: 'Open Sans', sans-serif;
   --title-font: 'Raleway', sans-serif;
-  //  Text colors
-  --main-txt-cl: #555555;
-  --secondary-txt-cl: #9da4bd;
-  --title-txt-cl: #303030;
-  --white-txt-cl: #ffffff;
-  --uppertitle-txt-cl: rgba(157, 164, 189, 0.6);
-  --mobile-menu-txt-cl: #303030;
-  // Background colors
-  --background-light-cl: #f7f7f7;
-  --background-prices-cl: #111319;
-  --background-dark-cl: #191c26;
-  --background-white-cl: #ffffff;
-  // Logo colors
-  --logo-white-cl: #ffffff;
-  --logo-black-cl: #000000;
-  // Button colors
-  --close-btn-cl: #303030;
-  // Borders color
-  --border-grey-cl: rgba(157, 164, 189, 0.4);
-  --border-white-cl: #ffffff;
-  --border-light-cl: rgba(33, 33, 33, 0.2);
-  // Placeholder color
-  --placeholder-light-cl: rgba(33, 33, 33, 0.2);
-  --placeholder-grey-cl: rgba(157, 164, 189, 0.4);
-  // Backdrop color
-  --backdrop-cl: rgba(0, 0, 0, 0.2);
-  // Psevdoelement colors
-  --psevdoelement-light-cl: rgba(157, 164, 189, 0.6);
-  --psevdoelement-prices-cl: rgba(157, 164, 189, 0.12);
-  --psevdoelement-socials-cl: #303030;
-  // Icon color
-  --modal-icon-close-cl: #212121;
-  --modal-validate-warning-cl: #d60202;
-  --modal-validate-success-cl: #03b403;
-  --modal-agreement-icon-cl: #212121;
-  --icon-white-cl: #ffffff;
-  // Accent colors
-  --accent-cl: #ff6c00;
-  --placeholder-accent-cl: rgba(255, 108, 0, 0.5);
-  // Shadows
-  --btn-shadow: 0px 4px 4px 0px #00000026;
-  --modal-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
-    0px 1px 3px 0px #0000001f;
-  // Gradient colors
-  --price-list-gredient-cl: #171a24, #171a2433;
-  // Duration
-  --duration: 250ms;
-  --duration-slow: 600ms;
-  // Timing function
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  // Delays
-  --delay-menu: 250ms;
   // Font weight
   --fw-s: 400;
   --fw-m: 500;
@@ -171,6 +119,58 @@
   --ls-menu-list: 0.1em;
   --ls-menu-contacts: 0.1em;
   --ls-menu-socials-link: 0.2em;
+  //  Text colors
+  --main-txt-cl: #555555;
+  --secondary-txt-cl: #9da4bd;
+  --title-txt-cl: #303030;
+  --white-txt-cl: #ffffff;
+  --uppertitle-txt-cl: rgba(157, 164, 189, 0.6);
+  --mobile-menu-txt-cl: #303030;
+  // Background colors
+  --background-light-cl: #f7f7f7;
+  --background-prices-cl: #111319;
+  --background-dark-cl: #191c26;
+  --background-white-cl: #ffffff;
+  // Logo colors
+  --logo-white-cl: #ffffff;
+  --logo-black-cl: #000000;
+  // Button colors
+  --close-btn-cl: #303030;
+  // Borders color
+  --border-grey-cl: rgba(157, 164, 189, 0.4);
+  --border-white-cl: #ffffff;
+  --border-light-cl: rgba(33, 33, 33, 0.2);
+  // Placeholder color
+  --placeholder-light-cl: rgba(33, 33, 33, 0.2);
+  --placeholder-grey-cl: rgba(157, 164, 189, 0.4);
+  // Backdrop color
+  --backdrop-cl: rgba(0, 0, 0, 0.2);
+  // Psevdoelement colors
+  --psevdoelement-light-cl: rgba(157, 164, 189, 0.6);
+  --psevdoelement-prices-cl: rgba(157, 164, 189, 0.12);
+  --psevdoelement-socials-cl: #303030;
+  // Icon color
+  --modal-icon-close-cl: #212121;
+  --modal-validate-warning-cl: #d60202;
+  --modal-validate-success-cl: #03b403;
+  --modal-agreement-icon-cl: #212121;
+  --icon-white-cl: #ffffff;
+  // Accent colors
+  --accent-cl: #ff6c00;
+  --placeholder-accent-cl: rgba(255, 108, 0, 0.5);
+  // Shadows
+  --btn-shadow: 0px 4px 4px 0px #00000026;
+  --modal-shadow: 0px 2px 1px 0px #00000033, 0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001f;
+  // Gradient colors
+  --price-list-gredient-cl: #171a24, #171a2433;
+  // Duration
+  --duration: 250ms;
+  --duration-slow: 600ms;
+  // Timing function
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  // Delays
+  --delay-menu: 250ms;
   // Other
   --indent: 30px;
   --item: 2;
