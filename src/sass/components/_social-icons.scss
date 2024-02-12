@@ -7,7 +7,7 @@
   @extend %centeredFlex;
   background-color: var(--background-white-cl);
   fill: currentColor;
-  border-radius: 50%;
+  border-radius: var(--socials-icon-border-radius);
   width: 44px;
   height: 44px;
   transition-property: fill;
