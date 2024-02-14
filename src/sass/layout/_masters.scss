@@ -1,10 +1,9 @@
 .masters {
   @include section();
   background-color: var(--background-light-cl);
-  --indent: 64px;
 
   @media screen and (max-width: 1199px) {
-    --item: 1;
+    --indent: 64px;
   }
 
   @media screen and (min-width: 768px) {
@@ -13,12 +12,28 @@
 
   @media screen and (min-width: 1200px) {
     @include section(120px, 120px);
-    --indent: 30px;
+  }
+}
+
+.masters__wrap {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-left: 125px;
   }
 }
 
 .masters__title {
   margin-bottom: 44px;
+}
+
+.masters__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+    gap: var(--indent);
+  }
 }
 
 .masters__img {
