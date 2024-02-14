@@ -1,19 +1,88 @@
 .prices {
   @include section();
   background-color: var(--background-prices-cl);
-  background-image: url(./../images/prices/prices-img-sm.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1600px;
   margin: 0 auto;
 
+  // mobile screen
+  background-image: url('../images/prices/prices-bg_m.png');
+  background-image: -webkit-image-set(
+    url('../images/prices/prices-bg_m.webp') 1x
+  );
+  @include retinax2 {
+    background-image: url('../images/prices/prices-bg@2x_m.png');
+    background-image: -webkit-image-set(
+      url('../images/prices/prices-bg@2x_m.webp') 2x
+    );
+  }
+  @include retinax3 {
+    background-image: url('../images/prices/prices-bg@3x_m.png');
+    background-image: -webkit-image-set(
+      url('../images/prices/prices-bg@3x_m.webp') 3x
+    );
+  }
+  @include retinax4 {
+    background-image: url('../images/prices/prices-bg@4x_m.png');
+    background-image: -webkit-image-set(
+      url('../images/prices/prices-bg@4x_m.webp') 4x
+    );
+  }
+
   @media screen and (min-width: 768px) {
     @include section(100px, 100px);
+    // tablet screen
+    background-image: url('../images/prices/prices-bg_t.png');
+    background-image: -webkit-image-set(
+      url('../images/prices/prices-bg_t.webp') 1x
+    );
+    @include retinax2 {
+      background-image: url('../images/prices/prices-bg@2x_t.png');
+      background-image: -webkit-image-set(
+        url('../images/prices/prices-bg@2x_t.webp') 2x
+      );
+    }
+    @include retinax3 {
+      background-image: url('../images/prices/prices-bg@3x_t.png');
+      background-image: -webkit-image-set(
+        url('../images/prices/prices-bg@3x_t.webp') 3x
+      );
+    }
+    @include retinax4 {
+      background-image: url('../images/prices/prices-bg@4x_t.png');
+      background-image: -webkit-image-set(
+        url('../images/prices/prices-bg@4x_t.webp') 4x
+      );
+    }
   }
 
   @media screen and (min-width: 1200px) {
     @include section(120px, 120px);
+    // desktop screen
+    background-image: url('../images/prices/prices-bg_d.png');
+    background-image: -webkit-image-set(
+      url('../images/prices/prices-bg_d.webp') 1x
+    );
+    @include retinax2 {
+      background-image: url('../images/prices/prices-bg@2x_d.png');
+      background-image: -webkit-image-set(
+        url('../images/prices/prices-bg@2x_d.webp') 2x
+      );
+    }
+    @include retinax3 {
+      background-image: url('../images/prices/prices-bg@3x_d.png');
+      background-image: -webkit-image-set(
+        url('../images/prices/prices-bg@3x_d.webp') 3x
+      );
+    }
+    @include retinax4 {
+      background-image: url('../images/prices/prices-bg@4x_d.png');
+      background-image: -webkit-image-set(
+        url('../images/prices/prices-bg@4x_d.webp') 4x
+      );
+    }
   }
 }
 
