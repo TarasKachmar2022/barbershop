@@ -26,13 +26,7 @@
 }
 
 .masters__list {
-  flex-direction: column;
-  align-items: center;
-
-  @media screen and (min-width: 1200px) {
-    flex-direction: row;
-    gap: var(--indent);
-  }
+  justify-content: center;
 }
 
 .masters__img {
