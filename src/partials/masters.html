@@ -4,13 +4,79 @@
     <h2 class="masters__title section-title">Our barbers</h2>
     <ul class="card-set">
       <li class="card-item">
-        <img
-          class="masters__img"
-          src="./images/masters/img-1.jpg"
-          alt="John Smith"
-          width="418"
-          height="346"
-        />
+        <picture>
+          <!-- desktop screen -->
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/team/team-1_d.webp    1x,
+              ./images/team/team-1@2x_d.webp 2x,
+              ./images/team/team-1@3x_d.webp 3x,
+              ./images/team/team-1@4x_d.webp 4x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/team/team-1_d.jpg    1x,
+              ./images/team/team-1@2x_d.jpg 2x,
+              ./images/team/team-1@3x_d.jpg 3x,
+              ./images/team/team-1@4x_d.jpg 4x
+            "
+            type="image/jpg"
+          />
+          <!-- tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/team/team-1_t.webp    1x,
+              ./images/team/team-1@2x_t.webp 2x,
+              ./images/team/team-1@3x_t.webp 3x,
+              ./images/team/team-1@4x_t.webp 4x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/team/team-1_t.jpg    1x,
+              ./images/team/team-1@2x_t.jpg 2x,
+              ./images/team/team-1@3x_t.jpg 3x,
+              ./images/team/team-1@4x_t.jpg 4x
+            "
+            type="image/jpg"
+          />
+          <!-- mobile screen -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./images/team/team-1_m.webp    1x,
+              ./images/team/team-1@2x_m.webp 2x,
+              ./images/team/team-1@3x_m.webp 3x,
+              ./images/team/team-1@4x_m.webp 4x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./images/team/team-1_m.jpg    1x,
+              ./images/team/team-1@2x_m.jpg 2x,
+              ./images/team/team-1@3x_m.jpg 3x,
+              ./images/team/team-1@4x_m.jpg 4x
+            "
+            type="image/jpg"
+          />
+          <!-- fallback -->
+          <img
+            class="masters__img"
+            src="./images/masters/img-1.jpg"
+            alt="John Smith"
+            width="418"
+            height="346"
+          />
+        </picture>
         <h3 class="masters__subtitle">John Smith</h3>
         <p class="masters__descr">Extreme Barber</p>
         <ul class="social-icons__list">
