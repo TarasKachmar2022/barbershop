@@ -1,7 +1,8 @@
 .hero {
   @media screen and (max-width: 767px) {
     background-color: var(--background-dark-cl);
-    background-image: url(./../images/hero/slider-img-3-sm.jpg);
+    background-image: url(./../images/hero/slider-img-3_d.jpg);
+    // background-image: url(./../images/hero/slider-img-3-sm.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -46,7 +47,7 @@
   @media screen and (min-width: 768px) {
     flex-grow: 1;
     background-color: var(--background-dark-cl);
-    background-image: url(./../images/hero/slider-img-3-sm.jpg);
+    background-image: url(./../images/hero/slider-img-3_d.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
