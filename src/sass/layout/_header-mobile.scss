@@ -1,10 +1,17 @@
 .header-mobile {
-  position: absolute;
+  position: fixed;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 100;
 
   @media screen and (min-width: 768px) {
     display: none;
+  }
+
+  &--no-transparency {
+    background-color: rgba(25, 28, 38, 0.5);
+    backdrop-filter: blur(4px);
   }
 }
 
