@@ -2,20 +2,110 @@
   <div class="about__container container">
     <ul class="about__list">
       <li>
-        <img
-          src="./images/about/img-1.jpg"
-          alt="Shaving the beard"
-          width="270"
-          height="445"
-        />
+        <picture>
+          <!-- desktop screen -->
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/about/about-1_d.webp    1x,
+              ./images/about/about-1@2x_d.webp 2x,
+              ./images/about/about-1@3x_d.webp 3x,
+              ./images/about/about-1@4x_d.webp 4x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/about/about-1_d.jpg    1x,
+              ./images/about/about-1@2x_d.jpg 2x,
+              ./images/about/about-1@3x_d.jpg 3x,
+              ./images/about/about-1@4x_d.jpg 4x
+            "
+            type="image/jpg"
+          />
+          <!-- tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/about/about-1_t.webp    1x,
+              ./images/about/about-1@2x_t.webp 2x,
+              ./images/about/about-1@3x_t.webp 3x,
+              ./images/about/about-1@4x_t.webp 4x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/about/about-1_t.jpg    1x,
+              ./images/about/about-1@2x_t.jpg 2x,
+              ./images/about/about-1@3x_t.jpg 3x,
+              ./images/about/about-1@4x_t.jpg 4x
+            "
+            type="image/jpg"
+          />
+          <!-- fallback -->
+          <img
+            src="./images/about/about-1_t.jpg"
+            alt="Shaving the beard"
+            width="270"
+            height="445"
+          />
+        </picture>
       </li>
       <li>
-        <img
-          src="./images/about/img-2.jpg"
-          alt="Shaving with a straight razor"
-          width="270"
-          height="445"
-        />
+        <picture>
+          <!-- desktop screen -->
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/about/about-2_d.webp    1x,
+              ./images/about/about-2@2x_d.webp 2x,
+              ./images/about/about-2@3x_d.webp 3x,
+              ./images/about/about-2@4x_d.webp 4x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ./images/about/about-2_d.jpg    1x,
+              ./images/about/about-2@2x_d.jpg 2x,
+              ./images/about/about-2@3x_d.jpg 3x,
+              ./images/about/about-2@4x_d.jpg 4x
+            "
+            type="image/jpg"
+          />
+          <!-- tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/about/about-2_t.webp    1x,
+              ./images/about/about-2@2x_t.webp 2x,
+              ./images/about/about-2@3x_t.webp 3x,
+              ./images/about/about-2@4x_t.webp 4x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/about/about-2_t.jpg    1x,
+              ./images/about/about-2@2x_t.jpg 2x,
+              ./images/about/about-2@3x_t.jpg 3x,
+              ./images/about/about-2@4x_t.jpg 4x
+            "
+            type="image/jpg"
+          />
+          <!-- fallback -->
+          <img
+            src="./images/about/about-2_t.jpg"
+            alt="Shaving with a straight razor"
+            width="270"
+            height="445"
+          />
+        </picture>
       </li>
     </ul>
     <div class="about__right-side">
