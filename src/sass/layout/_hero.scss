@@ -41,20 +41,32 @@
 }
 
 .hero__right-side {
-  padding-top: 208px;
-  padding-bottom: 209px;
+  // padding-top: 208px;
+  // padding-bottom: 209px;
+  position: relative;
 
   @media screen and (min-width: 768px) {
-    flex-grow: 1;
+    // flex-grow: 1;
     background-color: var(--background-dark-cl);
-    background-image: url(./../images/hero/slider-img-3_d.jpg);
+    // background-image: url(./../images/hero/slider-img-3_d.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-left: 98px;
-    max-width: 1600px;
+    // padding-left: 98px;
+    max-width: 573px;
     margin: 0 auto;
   }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1070px;
+    height: 680px;
+  }
+}
+
+.hero__text-wrapper {
+  position: absolute;
+  top: 272;
+  left: 100;
 }
 
 .hero__uppertitle {
