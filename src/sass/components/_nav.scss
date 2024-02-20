@@ -5,12 +5,14 @@
 .site-nav__list {
   @extend %align-list;
   gap: var(--indent);
+  margin-left: 70px;
 
   @media screen and (min-width: 768px) {
     font-size: var(--fs-nav);
     line-height: var(--lh-nav);
     letter-spacing: var(--ls-nav);
-    margin-left: 70px;
+    margin-left: 49px;
+    gap: 20px;
   }
 
   @media screen and (min-width: 1200px) {
