@@ -24,7 +24,7 @@
 
 .header__container {
   display: flex;
-  align-items: last baseline;
+  align-items: flex-start;
 
   @media screen and (min-width: 768px) {
     color: var(--white-txt-cl);
@@ -55,6 +55,10 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    order: 1;
+  }
 
   &:hover {
     color: var(--accent-cl);
