@@ -15,7 +15,7 @@
   "author": "Taras Kachmar <kachmar.taras@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/barbershop/issues"
+    "url": "https://github.com/TarasKachmar2022/barbershop/issues"
   },
   "dependencies": {
     "imask": "^7.3.0",
