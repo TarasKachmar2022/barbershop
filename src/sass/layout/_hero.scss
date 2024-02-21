@@ -29,6 +29,7 @@
 
 .hero__right-side {
   position: relative;
+  max-width: 100%;
 
   @media screen and (min-width: 768px) {
     flex-grow: 1;
@@ -38,11 +39,14 @@
 
 .hero__text-wrapper {
   position: absolute;
-  top: 208;
+  top: 50%;
   left: 25;
+  transform: translateY(-50%);
 
   @media screen and (min-width: 480px) {
+    top: 208;
     left: 31;
+    transform: translateY(0);
   }
   @media screen and (min-width: 768px) {
     top: 272;
@@ -54,8 +58,18 @@
 }
 
 .hero__uppertitle {
+  font-size: var(--fs-hero-uppertitle-s);
   letter-spacing: var(--ls-hero-uppertitle);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: 480px) {
+    font-size: var(--fs-hero-uppertitle-m);
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: var(--fs-hero-uppertitle-d);
+  }
 }
 
 .hero__maintitle {
@@ -63,11 +77,16 @@
   font-size: var(--fs-hero-maintitle-s);
   letter-spacing: var(--ls-hero-maintitle);
   color: var(--white-txt-cl);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   @media screen and (min-width: 480px) {
-    font-size: var(--fs-hero-maintitle-l);
+    margin-bottom: 20px;
+    font-size: var(--fs-hero-maintitle-m);
     line-height: var(--lh-hero-maintitle);
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: var(--fs-hero-maintitle-d);
   }
 }
 
@@ -75,11 +94,18 @@
   font-size: var(--fs-hero-descr-s);
   line-height: var(--lh-hero-descr);
   color: var(--secondary-txt-cl);
-  width: 250px;
+
+  @media screen and (max-width: 479px) {
+    max-width: 220px;
+  }
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-hero-descr-l);
     line-height: var(--lh-hero-descr-m);
     width: 321px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 360px;
   }
 }
