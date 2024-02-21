@@ -52,10 +52,6 @@
   color: transparent;
   background-color: transparent;
   padding: 0;
-
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
 }
 
 .slick-prev {
@@ -110,10 +106,6 @@
   right: 20;
   transform: translateY(-50%);
   text-align: right;
-
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
 }
 
 .slick-dots button {
