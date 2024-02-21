@@ -12,10 +12,10 @@
     "url": "git+https://github.com/TarasKachmar2022/barbershop.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Taras Kachmar <kachmar.taras@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/goitacademy/barbershop/issues"
   },
   "dependencies": {
     "imask": "^7.3.0",
